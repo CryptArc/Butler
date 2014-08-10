@@ -19,7 +19,7 @@ weather = (msg, query, cb) ->
     .query(where: query)
     .header('User-Agent', 'Mozilla/5.0')
     .get() (err, res, body) ->
-      temp = body.match(/<span class="temperature" tempf="\d*">(\d+)/)?[1] || ""
+      temp = body.match(/<span class="temperature" tempc="\d*">(\d+)/)?[1] || ""
       remark = body.match(/<p class="remark">(.*)</)?[1] || "remark not found"
       flavor = body.match(/<p class="flavor">(.*)</)?[1] || "flavor not found"
       cb(temp, remark, flavor)
