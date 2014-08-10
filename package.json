@@ -21,14 +21,13 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
+    "cleverbot-node": "^0.1.2",
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-ector": "^1.2.1",
     "hubot-irc": "^0.2.7",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "install": "^0.1.7",
-    "npm": "^1.4.23",
-    "cleverbot-node": "0.1.2"
-
+    "npm": "^1.4.23"
   },
   "engines": {
     "node": ">= 0.8.x",
