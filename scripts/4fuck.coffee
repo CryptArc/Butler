@@ -42,13 +42,13 @@ send_meme = (message, location, response_handler)->
 
     selectors = ["a img.badge-item-img"]
     if ! process.env.HUBOT_9GAG_NO_GIFS?
-      selectors.unshift("div.badge-animated-container-animated img")
+      selectors.unshift("div.content img")
 
     img_src = get_meme_image( body, selectors )
     if img_src.substr(0, 4) != "http"
       img_src = "http:#{img_src}"
 
-    img_title = escape_html_characters( get_meme_title( body, [".badge-item-title"] ) )
+    img_title = escape_html_characters( get_meme_title( body, ["div.imginfo.title"] ) )
 
     response_handler img_title, img_src
 
