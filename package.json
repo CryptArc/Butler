@@ -27,7 +27,7 @@
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "install": "^0.1.7",
     "npm": "^1.4.23",
-    "cleverbot-node": "1.8"
+    "cleverbot-node": "0.1.2"
 
   },
   "engines": {
