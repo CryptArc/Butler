@@ -26,7 +26,7 @@ module.exports = (robot)->
       message.send title, src
 
 send_meme = (message, location, response_handler)->
-  meme_domain = "http://4fuck.com"
+  meme_domain = "http://4fuckr.com"
   location  ||= "/random.htm"
   if location.substr(0, 4) != "http"
     url = meme_domain + location
