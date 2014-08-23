@@ -37,7 +37,9 @@
     "underscore": "^1.6.0",
     "xml2js": "^0.4.4",
     "yelp": "^0.1.1",
-	"moment": "^2.7.0"
+	"moment": "^2.7.0",
+	"ref": "^0.3.2",
+	"msgpack": "^0.2.3"
   },
   "engines": {
     "node": ">= 0.8.x",
