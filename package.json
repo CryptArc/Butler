@@ -24,6 +24,7 @@
     "cleverbot-node": "^0.1.8",
     "htmlparser": "^1.7.7",
     "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot-cool-ascii-faces": "^1.0.9",
     "hubot-ector": "^1.2.1",
     "hubot-irc": "^0.2.7",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
@@ -35,8 +36,6 @@
     "underscore": "^1.6.0",
     "xml2js": "^0.4.4",
     "yelp": "^0.1.1"
-    
-
   },
   "engines": {
     "node": ">= 0.8.x",

@@ -8,7 +8,7 @@ module.exports = (robot) ->
     query = msg.match[3]
     robot.http("http://gdata.youtube.com/feeds/api/videos")
       .query({
-        orderBy: "published"
+        orderBy: "relevance"
         'max-results': 15
         alt: 'json'
         q: query
