@@ -35,7 +35,8 @@
     "soupselect": "^0.2.0",
     "underscore": "^1.6.0",
     "xml2js": "^0.4.4",
-    "yelp": "^0.1.1"
+    "yelp": "^0.1.1",
+	"hubot-chronos": "0.0.1"
   },
   "engines": {
     "node": ">= 0.8.x",
