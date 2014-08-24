@@ -1,0 +1,1554 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'C:\\hubot\\Butler',
+6 verbose install   [ 'cleverbot-node',
+6 verbose install     'htmlparser',
+6 verbose install     'hubot',
+6 verbose install     'hubot-chronos',
+6 verbose install     'hubot-cool-ascii-faces',
+6 verbose install     'hubot-ector',
+6 verbose install     'hubot-irc',
+6 verbose install     'hubot-scripts',
+6 verbose install     'install',
+6 verbose install     'npm',
+6 verbose install     'optparse',
+6 verbose install     'querystring',
+6 verbose install     'soupselect',
+6 verbose install     'underscore',
+6 verbose install     'xml2js',
+6 verbose install     'yelp',
+6 verbose install     'moment',
+6 verbose install     'ref',
+6 verbose install     'msgpack' ] ]
+7 info preinstall hosted-hubot@2.8.0
+8 warn package.json querystring@0.2.0 querystring is also the name of a node core module.
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping cleverbot-node@^0.1.8 C:\hubot\Butler
+11 verbose already installed skipping htmlparser@^1.7.7 C:\hubot\Butler
+12 verbose already installed skipping hubot@>= 2.6.0 < 3.0.0 C:\hubot\Butler
+13 verbose cache add [ 'hubot-chronos@git://github.com/evansolomon/hubot-chronos.git',
+13 verbose cache add   null ]
+14 verbose cache add name=undefined spec="hubot-chronos@git://github.com/evansolomon/hubot-chronos.git" args=["hubot-chronos@git://github.com/evansolomon/hubot-chronos.git",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'hubot-chronos@git://github.com/evansolomon/hubot-chronos.git',
+15 verbose parsed url   path: 'hubot-chronos@git://github.com/evansolomon/hubot-chronos.git',
+15 verbose parsed url   href: 'hubot-chronos@git://github.com/evansolomon/hubot-chronos.git' }
+16 verbose already installed skipping hubot-cool-ascii-faces@^1.0.9 C:\hubot\Butler
+17 verbose already installed skipping hubot-ector@^1.2.1 C:\hubot\Butler
+18 verbose already installed skipping hubot-irc@^0.2.7 C:\hubot\Butler
+19 verbose already installed skipping hubot-scripts@>= 2.5.0 < 3.0.0 C:\hubot\Butler
+20 verbose already installed skipping install@^0.1.7 C:\hubot\Butler
+21 verbose already installed skipping npm@^1.4.23 C:\hubot\Butler
+22 verbose already installed skipping optparse@^1.0.5 C:\hubot\Butler
+23 verbose already installed skipping querystring@^0.2.0 C:\hubot\Butler
+24 verbose already installed skipping soupselect@^0.2.0 C:\hubot\Butler
+25 verbose already installed skipping underscore@^1.6.0 C:\hubot\Butler
+26 verbose already installed skipping xml2js@^0.4.4 C:\hubot\Butler
+27 verbose already installed skipping yelp@^0.1.1 C:\hubot\Butler
+28 verbose cache add name="hubot-chronos" spec="git://github.com/evansolomon/hubot-chronos.git" args=["hubot-chronos","git://github.com/evansolomon/hubot-chronos.git"]
+29 verbose parsed url { protocol: 'git:',
+29 verbose parsed url   slashes: true,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: 'github.com',
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: 'github.com',
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '/evansolomon/hubot-chronos.git',
+29 verbose parsed url   path: '/evansolomon/hubot-chronos.git',
+29 verbose parsed url   href: 'git://github.com/evansolomon/hubot-chronos.git' }
+30 silly lockFile 1cf4a99d-om-evansolomon-hubot-chronos-git git://github.com/evansolomon/hubot-chronos.git
+31 verbose lock git://github.com/evansolomon/hubot-chronos.git C:\Users\Jaglag\AppData\Roaming\npm-cache\1cf4a99d-om-evansolomon-hubot-chronos-git.lock
+32 verbose addRemoteGit [ 'git://github.com/evansolomon/hubot-chronos.git', 'master' ]
+33 verbose already installed skipping moment@^2.7.0 C:\hubot\Butler
+34 verbose cache add [ 'ref@^0.3.2', null ]
+35 verbose cache add name=undefined spec="ref@^0.3.2" args=["ref@^0.3.2",null]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: 'ref@^0.3.2',
+36 verbose parsed url   path: 'ref@^0.3.2',
+36 verbose parsed url   href: 'ref@^0.3.2' }
+37 verbose cache add [ 'msgpack@^0.2.3', null ]
+38 verbose cache add name=undefined spec="msgpack@^0.2.3" args=["msgpack@^0.2.3",null]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: 'msgpack@^0.2.3',
+39 verbose parsed url   path: 'msgpack@^0.2.3',
+39 verbose parsed url   href: 'msgpack@^0.2.3' }
+40 verbose cache add name="ref" spec="^0.3.2" args=["ref","^0.3.2"]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: '^0.3.2',
+41 verbose parsed url   path: '^0.3.2',
+41 verbose parsed url   href: '^0.3.2' }
+42 verbose addNamed [ 'ref', '^0.3.2' ]
+43 verbose addNamed [ null, '>=0.3.2-0 <0.4.0-0' ]
+44 silly lockFile 4a27a783-ref-0-3-2 ref@^0.3.2
+45 verbose lock ref@^0.3.2 C:\Users\Jaglag\AppData\Roaming\npm-cache\4a27a783-ref-0-3-2.lock
+46 verbose cache add name="msgpack" spec="^0.2.3" args=["msgpack","^0.2.3"]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: '^0.2.3',
+47 verbose parsed url   path: '^0.2.3',
+47 verbose parsed url   href: '^0.2.3' }
+48 verbose addNamed [ 'msgpack', '^0.2.3' ]
+49 verbose addNamed [ null, '>=0.2.3-0 <0.3.0-0' ]
+50 silly lockFile 69df9757-msgpack-0-2-3 msgpack@^0.2.3
+51 verbose lock msgpack@^0.2.3 C:\Users\Jaglag\AppData\Roaming\npm-cache\69df9757-msgpack-0-2-3.lock
+52 silly addNameRange { name: 'ref', range: '>=0.3.2-0 <0.4.0-0', hasData: false }
+53 silly addNameRange { name: 'msgpack', range: '>=0.2.3-0 <0.3.0-0', hasData: false }
+54 verbose request where is /ref
+55 verbose request registry https://registry.npmjs.org/
+56 verbose request id a96917b5d5425deb
+57 verbose url raw /ref
+58 verbose url resolving [ 'https://registry.npmjs.org/', './ref' ]
+59 verbose url resolved https://registry.npmjs.org/ref
+60 verbose request where is https://registry.npmjs.org/ref
+61 info trying registry request attempt 1 at 10:13:21
+62 verbose etag "AQ85TY0AOEKTT5E116SYF8EWM"
+63 http GET https://registry.npmjs.org/ref
+64 verbose request where is /msgpack
+65 verbose request registry https://registry.npmjs.org/
+66 verbose url raw /msgpack
+67 verbose url resolving [ 'https://registry.npmjs.org/', './msgpack' ]
+68 verbose url resolved https://registry.npmjs.org/msgpack
+69 verbose request where is https://registry.npmjs.org/msgpack
+70 info trying registry request attempt 1 at 10:13:21
+71 verbose etag "4L0VM1M1C93DRY2SPAJ8BXZG6"
+72 http GET https://registry.npmjs.org/msgpack
+73 verbose git remote.origin.url git://github.com/evansolomon/hubot-chronos.git
+74 http 304 https://registry.npmjs.org/msgpack
+75 silly registry.get cb [ 304,
+75 silly registry.get   { date: 'Sun, 24 Aug 2014 08:13:12 GMT',
+75 silly registry.get     server: 'Apache',
+75 silly registry.get     via: '1.1 varnish',
+75 silly registry.get     'last-modified': 'Sun, 24 Aug 2014 08:13:12 GMT',
+75 silly registry.get     'cache-control': 'max-age=60',
+75 silly registry.get     etag: '"4L0VM1M1C93DRY2SPAJ8BXZG6"',
+75 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+75 silly registry.get     'x-cache': 'HIT',
+75 silly registry.get     'x-cache-hits': '1',
+75 silly registry.get     'x-timer': 'S1408867992.967498,VS0,VE0',
+75 silly registry.get     vary: 'Accept',
+75 silly registry.get     'content-length': '0',
+75 silly registry.get     'keep-alive': 'timeout=10, max=50',
+75 silly registry.get     connection: 'Keep-Alive' } ]
+76 verbose etag https://registry.npmjs.org/msgpack from cache
+77 silly addNameRange number 2 { name: 'msgpack', range: '>=0.2.3-0 <0.3.0-0', hasData: true }
+78 silly addNameRange versions [ 'msgpack',
+78 silly addNameRange   [ '0.1.2',
+78 silly addNameRange     '0.1.3',
+78 silly addNameRange     '0.1.5',
+78 silly addNameRange     '0.1.6',
+78 silly addNameRange     '0.1.7',
+78 silly addNameRange     '0.1.8',
+78 silly addNameRange     '0.1.9',
+78 silly addNameRange     '0.1.10',
+78 silly addNameRange     '0.1.11',
+78 silly addNameRange     '0.2.0',
+78 silly addNameRange     '0.2.1',
+78 silly addNameRange     '0.2.2',
+78 silly addNameRange     '0.2.3',
+78 silly addNameRange     '0.2.4' ] ]
+79 verbose addNamed [ 'msgpack', '0.2.4' ]
+80 verbose addNamed [ '0.2.4', '0.2.4' ]
+81 silly lockFile 80d0a627-msgpack-0-2-4 msgpack@0.2.4
+82 verbose lock msgpack@0.2.4 C:\Users\Jaglag\AppData\Roaming\npm-cache\80d0a627-msgpack-0-2-4.lock
+83 silly lockFile 80d0a627-msgpack-0-2-4 msgpack@0.2.4
+84 silly lockFile 80d0a627-msgpack-0-2-4 msgpack@0.2.4
+85 silly lockFile 69df9757-msgpack-0-2-3 msgpack@^0.2.3
+86 silly lockFile 69df9757-msgpack-0-2-3 msgpack@^0.2.3
+87 verbose git fetch -a origin (git://github.com/evansolomon/hubot-chronos.git)
+88 silly verifyOwnership skipping for windows
+89 verbose git rev-list -n1 master 2256ce1824b6e1dc498e96f907c5d2126b71a6eb
+90 verbose resolved git url git://github.com/evansolomon/hubot-chronos.git#2256ce1824b6e1dc498e96f907c5d2126b71a6eb
+91 verbose tar unpack C:\Users\Jaglag\AppData\Local\Temp\npm-9936-s1q1FtwW\1408868001628-0.32405062951147556\tmp.tgz
+92 silly lockFile dc8eb99e-32405062951147556-tmp-tgz-unpack tar://C:\Users\Jaglag\AppData\Local\Temp\npm-9936-s1q1FtwW\1408868001628-0.32405062951147556\tmp.tgz-unpack
+93 verbose lock tar://C:\Users\Jaglag\AppData\Local\Temp\npm-9936-s1q1FtwW\1408868001628-0.32405062951147556\tmp.tgz-unpack C:\Users\Jaglag\AppData\Roaming\npm-cache\dc8eb99e-32405062951147556-tmp-tgz-unpack.lock
+94 silly lockFile f56b7113-1628-0-32405062951147556-tmp-tgz tar://C:\Users\Jaglag\AppData\Local\Temp\npm-9936-s1q1FtwW\1408868001628-0.32405062951147556\tmp.tgz
+95 verbose lock tar://C:\Users\Jaglag\AppData\Local\Temp\npm-9936-s1q1FtwW\1408868001628-0.32405062951147556\tmp.tgz C:\Users\Jaglag\AppData\Roaming\npm-cache\f56b7113-1628-0-32405062951147556-tmp-tgz.lock
+96 silly gunzTarPerm modes [ '777', '666' ]
+97 silly gunzTarPerm extractEntry
+98 silly gunzTarPerm modified mode [ '', 509, 511 ]
+99 silly gunzTarPerm extractEntry .gitignore
+100 silly gunzTarPerm modified mode [ '.gitignore', 436, 438 ]
+101 silly gunzTarPerm extractEntry .travis.yml
+102 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+103 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+104 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 436, 438 ]
+105 silly gunzTarPerm extractEntry README.md
+106 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+107 silly gunzTarPerm extractEntry index.coffee
+108 silly gunzTarPerm modified mode [ 'index.coffee', 436, 438 ]
+109 silly gunzTarPerm extractEntry package.json
+110 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+111 silly gunzTarPerm extractEntry test/
+112 silly gunzTarPerm modified mode [ 'test/', 509, 511 ]
+113 silly gunzTarPerm extractEntry test/chronos.coffee
+114 silly gunzTarPerm modified mode [ 'test/chronos.coffee', 436, 438 ]
+115 silly lockFile dc8eb99e-32405062951147556-tmp-tgz-unpack tar://C:\Users\Jaglag\AppData\Local\Temp\npm-9936-s1q1FtwW\1408868001628-0.32405062951147556\tmp.tgz-unpack
+116 silly lockFile dc8eb99e-32405062951147556-tmp-tgz-unpack tar://C:\Users\Jaglag\AppData\Local\Temp\npm-9936-s1q1FtwW\1408868001628-0.32405062951147556\tmp.tgz-unpack
+117 silly lockFile f56b7113-1628-0-32405062951147556-tmp-tgz tar://C:\Users\Jaglag\AppData\Local\Temp\npm-9936-s1q1FtwW\1408868001628-0.32405062951147556\tmp.tgz
+118 silly lockFile f56b7113-1628-0-32405062951147556-tmp-tgz tar://C:\Users\Jaglag\AppData\Local\Temp\npm-9936-s1q1FtwW\1408868001628-0.32405062951147556\tmp.tgz
+119 silly lockFile 1cf4a99d-om-evansolomon-hubot-chronos-git git://github.com/evansolomon/hubot-chronos.git
+120 silly lockFile 1cf4a99d-om-evansolomon-hubot-chronos-git git://github.com/evansolomon/hubot-chronos.git
+121 http 304 https://registry.npmjs.org/ref
+122 silly registry.get cb [ 304,
+122 silly registry.get   { date: 'Sun, 24 Aug 2014 08:13:12 GMT',
+122 silly registry.get     server: 'Apache',
+122 silly registry.get     via: '1.1 varnish',
+122 silly registry.get     'last-modified': 'Sun, 24 Aug 2014 08:13:13 GMT',
+122 silly registry.get     'cache-control': 'max-age=60',
+122 silly registry.get     etag: '"AQ85TY0AOEKTT5E116SYF8EWM"',
+122 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+122 silly registry.get     'x-cache': 'HIT',
+122 silly registry.get     'x-cache-hits': '1',
+122 silly registry.get     'x-timer': 'S1408867992.964356,VS0,VE462',
+122 silly registry.get     vary: 'Accept',
+122 silly registry.get     'content-length': '0',
+122 silly registry.get     'keep-alive': 'timeout=10, max=50',
+122 silly registry.get     connection: 'Keep-Alive' } ]
+123 verbose etag https://registry.npmjs.org/ref from cache
+124 silly addNameRange number 2 { name: 'ref', range: '>=0.3.2-0 <0.4.0-0', hasData: true }
+125 silly addNameRange versions [ 'ref',
+125 silly addNameRange   [ '0.0.1',
+125 silly addNameRange     '0.0.2',
+125 silly addNameRange     '0.0.3',
+125 silly addNameRange     '0.0.4',
+125 silly addNameRange     '0.0.5',
+125 silly addNameRange     '0.0.6',
+125 silly addNameRange     '0.0.7',
+125 silly addNameRange     '0.0.8',
+125 silly addNameRange     '0.0.9',
+125 silly addNameRange     '0.0.10',
+125 silly addNameRange     '0.0.11',
+125 silly addNameRange     '0.0.12',
+125 silly addNameRange     '0.0.13',
+125 silly addNameRange     '0.0.14',
+125 silly addNameRange     '0.0.15',
+125 silly addNameRange     '0.0.16',
+125 silly addNameRange     '0.0.17',
+125 silly addNameRange     '0.0.18',
+125 silly addNameRange     '0.0.19',
+125 silly addNameRange     '0.0.20',
+125 silly addNameRange     '0.1.0',
+125 silly addNameRange     '0.1.1',
+125 silly addNameRange     '0.1.2',
+125 silly addNameRange     '0.1.3',
+125 silly addNameRange     '0.2.0',
+125 silly addNameRange     '0.2.1',
+125 silly addNameRange     '0.2.2',
+125 silly addNameRange     '0.2.3',
+125 silly addNameRange     '0.3.0',
+125 silly addNameRange     '0.3.1',
+125 silly addNameRange     '0.3.2' ] ]
+126 verbose addNamed [ 'ref', '0.3.2' ]
+127 verbose addNamed [ '0.3.2', '0.3.2' ]
+128 silly lockFile d818231b-ref-0-3-2 ref@0.3.2
+129 verbose lock ref@0.3.2 C:\Users\Jaglag\AppData\Roaming\npm-cache\d818231b-ref-0-3-2.lock
+130 silly lockFile d818231b-ref-0-3-2 ref@0.3.2
+131 silly lockFile d818231b-ref-0-3-2 ref@0.3.2
+132 silly lockFile 4a27a783-ref-0-3-2 ref@^0.3.2
+133 silly lockFile 4a27a783-ref-0-3-2 ref@^0.3.2
+134 silly resolved [ { name: 'msgpack',
+134 silly resolved     description: 'A space-efficient object serialization library for node.js',
+134 silly resolved     version: '0.2.4',
+134 silly resolved     homepage: 'https://github.com/msgpack/msgpack-node',
+134 silly resolved     contributors:
+134 silly resolved      [ [Object],
+134 silly resolved        [Object],
+134 silly resolved        [Object],
+134 silly resolved        [Object],
+134 silly resolved        [Object],
+134 silly resolved        [Object],
+134 silly resolved        [Object],
+134 silly resolved        [Object],
+134 silly resolved        [Object],
+134 silly resolved        [Object],
+134 silly resolved        [Object],
+134 silly resolved        [Object] ],
+134 silly resolved     repository:
+134 silly resolved      { type: 'git',
+134 silly resolved        url: 'https://github.com/msgpack/msgpack-node.git' },
+134 silly resolved     main: './lib/msgpack',
+134 silly resolved     directories: { lib: 'lib' },
+134 silly resolved     dependencies: { nan: '~1.0.0' },
+134 silly resolved     devDependencies: { nodeunit: 'https://github.com/godsflaw/nodeunit/archive/master.tar.gz' },
+134 silly resolved     engines: { node: '>=0.8.x' },
+134 silly resolved     bin:
+134 silly resolved      { json2msgpack: './bin/json2msgpack',
+134 silly resolved        msgpack2json: './bin/msgpack2json' },
+134 silly resolved     scripts: { test: './run_tests', install: 'node-gyp rebuild' },
+134 silly resolved     gypfile: true,
+134 silly resolved     gitHead: '260ca459578ee381b66a09dd6d7449b164fd193b',
+134 silly resolved     bugs: { url: 'https://github.com/msgpack/msgpack-node/issues' },
+134 silly resolved     _id: 'msgpack@0.2.4',
+134 silly resolved     _shasum: '17ac333ea5320b45059f80c992d7465fed4fe706',
+134 silly resolved     _from: 'msgpack@^0.2.3',
+134 silly resolved     _npmVersion: '1.4.14',
+134 silly resolved     _npmUser: { name: 'godsflaw', email: 'chris@dod.net' },
+134 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+134 silly resolved     dist:
+134 silly resolved      { shasum: '17ac333ea5320b45059f80c992d7465fed4fe706',
+134 silly resolved        tarball: 'http://registry.npmjs.org/msgpack/-/msgpack-0.2.4.tgz' },
+134 silly resolved     _resolved: 'https://registry.npmjs.org/msgpack/-/msgpack-0.2.4.tgz',
+134 silly resolved     readme: 'ERROR: No README data found!' },
+134 silly resolved   { name: 'hubot-chronos',
+134 silly resolved     version: '0.0.1',
+134 silly resolved     description: 'Schedule cron-like jobs for hubot commands.',
+134 silly resolved     scripts: { test: 'mocha --compilers coffee:coffee-script --reporter spec' },
+134 silly resolved     repository:
+134 silly resolved      { type: 'git',
+134 silly resolved        url: 'git://github.com/evansolomon/hubot-chronos.git' },
+134 silly resolved     keywords: [ 'hubot', 'cron', 'chronos' ],
+134 silly resolved     author: { name: 'Evan Solomon' },
+134 silly resolved     license: 'MIT',
+134 silly resolved     dependencies: { cron: '~1.0.1' },
+134 silly resolved     devDependencies:
+134 silly resolved      { should: '~1.3.0',
+134 silly resolved        mocha: '~1.13.0',
+134 silly resolved        'coffee-script': '~1.6.3',
+134 silly resolved        hubot: '~2.6.3' },
+134 silly resolved     readme: '# Hubot Chronos\r\n\r\n[![Build Status](https://secure.travis-ci.org/evansolomon/hubot-chronos.png?branch=master)](http://travis-ci.org/evansolomon/hubot-chronos)\r\n\r\nA cron-ish scheduling system for Hubot commands.\r\n\r\n### Install\r\nNot on NPM yet...\r\n\r\n`npm install git://github.com/evansolomon/hubot-chronos.git`\r\n\r\n### Details\r\n\r\nJobs are scheduled using [Node Cron](https://github.com/ncb000gt/node-cron) and cached in Hubot\'s brain. When the brain is loaded, cached jobs are resurrected. That means that if you use a persistent brain like Redis, jobs will persist across restarts. Yay, right?\r\n\r\nJobs can be scheduled using a standard cron pattern (`[minute] [hour] [day] [month] [year]`) using the `repeat` command. Everything following the cron pattern is treated a a Hubot command and automatically prefixed with the Hubot\'s name. You can give your scheudled job a custom ID by ending the commmand with "as [name]".\r\n\r\nThere are also helpers for the "daily" and "hourly" keywords. Each will set the command to recur every 1 or 24 hours starting from whenever you run the command.\r\n\r\n### Example\r\n\r\nHave Hubot say "hello world" every 2 minutes.\r\n\r\n`hubot repeat */2 * * * * echo hello world`\r\n\r\nHave Hubot PONG you every hour, and give the job a name\r\n\r\n`hubot repeat hourly ping as status check`\r\n\r\nSee your running jobs\r\n\r\n`hubot show jobs`\r\n\r\nRemove a job by its ID\r\n\r\n`hubot remove job status check`\r\n',
+134 silly resolved     readmeFilename: 'README.md',
+134 silly resolved     bugs: { url: 'https://github.com/evansolomon/hubot-chronos/issues' },
+134 silly resolved     homepage: 'https://github.com/evansolomon/hubot-chronos',
+134 silly resolved     _id: 'hubot-chronos@0.0.1',
+134 silly resolved     _shasum: 'd5f206663bfe91ec6a3b7c77acb6997fcaa9b129',
+134 silly resolved     _resolved: 'git://github.com/evansolomon/hubot-chronos.git#2256ce1824b6e1dc498e96f907c5d2126b71a6eb',
+134 silly resolved     _from: 'hubot-chronos@git://github.com/evansolomon/hubot-chronos.git' },
+134 silly resolved   { name: 'ref',
+134 silly resolved     description: 'Turn Buffer instances into "pointers"',
+134 silly resolved     keywords:
+134 silly resolved      [ 'native',
+134 silly resolved        'buffer',
+134 silly resolved        'extensions',
+134 silly resolved        'c++',
+134 silly resolved        'pointer',
+134 silly resolved        'reference',
+134 silly resolved        'dereference',
+134 silly resolved        'type',
+134 silly resolved        'int',
+134 silly resolved        'long',
+134 silly resolved        'float',
+134 silly resolved        'double',
+134 silly resolved        'byte',
+134 silly resolved        '64' ],
+134 silly resolved     version: '0.3.2',
+134 silly resolved     author:
+134 silly resolved      { name: 'Nathan Rajlich',
+134 silly resolved        email: 'nathan@tootallnate.net',
+134 silly resolved        url: 'http://tootallnate.net' },
+134 silly resolved     repository: { type: 'git', url: 'git://github.com/TooTallNate/ref.git' },
+134 silly resolved     main: './lib/ref.js',
+134 silly resolved     scripts:
+134 silly resolved      { docs: 'node docs/compile',
+134 silly resolved        test: 'mocha -gc --reporter spec',
+134 silly resolved        install: 'node-gyp rebuild' },
+134 silly resolved     dependencies: { bindings: '~1.2.0', debug: '~1.0.1', nan: '~1.2.0' },
+134 silly resolved     devDependencies:
+134 silly resolved      { dox: '0.4.4',
+134 silly resolved        'highlight.js': '1',
+134 silly resolved        jade: '0.35.0',
+134 silly resolved        marked: '0.3.2',
+134 silly resolved        mocha: '*',
+134 silly resolved        weak: '0.3.2' },
+134 silly resolved     gypfile: true,
+134 silly resolved     gitHead: '6d4b9362ecba1e3c650c86502ba8ca6e8847da49',
+134 silly resolved     bugs: { url: 'https://github.com/TooTallNate/ref/issues' },
+134 silly resolved     homepage: 'https://github.com/TooTallNate/ref',
+134 silly resolved     _id: 'ref@0.3.2',
+134 silly resolved     _shasum: '76cd64871b9d3cca65bf3aae6788d3f1f3eb0761',
+134 silly resolved     _from: 'ref@^0.3.2',
+134 silly resolved     _npmVersion: '1.4.14',
+134 silly resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+134 silly resolved     maintainers: [ [Object] ],
+134 silly resolved     dist:
+134 silly resolved      { shasum: '76cd64871b9d3cca65bf3aae6788d3f1f3eb0761',
+134 silly resolved        tarball: 'http://registry.npmjs.org/ref/-/ref-0.3.2.tgz' },
+134 silly resolved     directories: {},
+134 silly resolved     _resolved: 'https://registry.npmjs.org/ref/-/ref-0.3.2.tgz',
+134 silly resolved     readme: 'ERROR: No README data found!' } ]
+135 info install msgpack@0.2.4 into C:\hubot\Butler
+136 info install hubot-chronos@0.0.1 into C:\hubot\Butler
+137 info install ref@0.3.2 into C:\hubot\Butler
+138 info installOne msgpack@0.2.4
+139 info installOne hubot-chronos@0.0.1
+140 info installOne ref@0.3.2
+141 verbose node_modules\msgpack unbuild
+142 verbose node_modules\ref unbuild
+143 verbose tar unpack C:\Users\Jaglag\AppData\Roaming\npm-cache\msgpack\0.2.4\package.tgz
+144 silly lockFile dc99931d-ubot-Butler-node-modules-msgpack tar://C:\hubot\Butler\node_modules\msgpack
+145 verbose lock tar://C:\hubot\Butler\node_modules\msgpack C:\Users\Jaglag\AppData\Roaming\npm-cache\dc99931d-ubot-Butler-node-modules-msgpack.lock
+146 silly lockFile 2ed6706c--cache-msgpack-0-2-4-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\msgpack\0.2.4\package.tgz
+147 verbose lock tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\msgpack\0.2.4\package.tgz C:\Users\Jaglag\AppData\Roaming\npm-cache\2ed6706c--cache-msgpack-0-2-4-package-tgz.lock
+148 verbose tar unpack C:\Users\Jaglag\AppData\Roaming\npm-cache\ref\0.3.2\package.tgz
+149 silly lockFile 5b1e6792--C-hubot-Butler-node-modules-ref tar://C:\hubot\Butler\node_modules\ref
+150 verbose lock tar://C:\hubot\Butler\node_modules\ref C:\Users\Jaglag\AppData\Roaming\npm-cache\5b1e6792--C-hubot-Butler-node-modules-ref.lock
+151 silly lockFile 17764560--npm-cache-ref-0-3-2-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\ref\0.3.2\package.tgz
+152 verbose lock tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\ref\0.3.2\package.tgz C:\Users\Jaglag\AppData\Roaming\npm-cache\17764560--npm-cache-ref-0-3-2-package-tgz.lock
+153 verbose node_modules\hubot-chronos unbuild
+154 info preuninstall hubot-chronos@0.0.1
+155 silly gunzTarPerm modes [ '777', '666' ]
+156 silly gunzTarPerm modes [ '777', '666' ]
+157 info uninstall hubot-chronos@0.0.1
+158 verbose true,C:\hubot\Butler\node_modules,C:\hubot\Butler\node_modules unbuild hubot-chronos@0.0.1
+159 info postuninstall hubot-chronos@0.0.1
+160 silly gunzTarPerm extractEntry package.json
+161 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+162 silly gunzTarPerm extractEntry package.json
+163 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+164 silly gunzTarPerm extractEntry .npmignore
+165 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+166 silly gunzTarPerm extractEntry README.md
+167 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+168 silly gunzTarPerm extractEntry .npmignore
+169 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+170 silly gunzTarPerm extractEntry README.md
+171 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+172 silly gunzTarPerm extractEntry test/address.js
+173 silly gunzTarPerm modified mode [ 'test/address.js', 420, 438 ]
+174 silly gunzTarPerm extractEntry test/coerce.js
+175 silly gunzTarPerm modified mode [ 'test/coerce.js', 420, 438 ]
+176 silly gunzTarPerm extractEntry LICENSE
+177 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+178 silly gunzTarPerm extractEntry binding.gyp
+179 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+180 silly gunzTarPerm extractEntry test/int64.js
+181 silly gunzTarPerm modified mode [ 'test/int64.js', 420, 438 ]
+182 silly gunzTarPerm extractEntry deps/msgpack/LICENSE
+183 silly gunzTarPerm modified mode [ 'deps/msgpack/LICENSE', 420, 438 ]
+184 silly gunzTarPerm extractEntry test/isNull.js
+185 silly gunzTarPerm modified mode [ 'test/isNull.js', 420, 438 ]
+186 verbose tar unpack C:\Users\Jaglag\AppData\Roaming\npm-cache\hubot-chronos\0.0.1\package.tgz
+187 silly lockFile 5ca80665-utler-node-modules-hubot-chronos tar://C:\hubot\Butler\node_modules\hubot-chronos
+188 verbose lock tar://C:\hubot\Butler\node_modules\hubot-chronos C:\Users\Jaglag\AppData\Roaming\npm-cache\5ca80665-utler-node-modules-hubot-chronos.lock
+189 silly lockFile 596157d9--hubot-chronos-0-0-1-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\hubot-chronos\0.0.1\package.tgz
+190 verbose lock tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\hubot-chronos\0.0.1\package.tgz C:\Users\Jaglag\AppData\Roaming\npm-cache\596157d9--hubot-chronos-0-0-1-package-tgz.lock
+191 silly gunzTarPerm modes [ '777', '666' ]
+192 silly gunzTarPerm extractEntry test/char.js
+193 silly gunzTarPerm modified mode [ 'test/char.js', 420, 438 ]
+194 silly gunzTarPerm extractEntry test/pointer.js
+195 silly gunzTarPerm modified mode [ 'test/pointer.js', 420, 438 ]
+196 silly gunzTarPerm extractEntry deps/msgpack/msgpack.h
+197 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack.h', 420, 438 ]
+198 silly gunzTarPerm extractEntry deps/msgpack/AUTHORS
+199 silly gunzTarPerm modified mode [ 'deps/msgpack/AUTHORS', 420, 438 ]
+200 silly gunzTarPerm extractEntry
+201 silly gunzTarPerm modified mode [ '', 509, 511 ]
+202 silly gunzTarPerm extractEntry .gitignore
+203 silly gunzTarPerm modified mode [ '.gitignore', 436, 438 ]
+204 silly gunzTarPerm extractEntry .travis.yml
+205 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+206 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+207 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 436, 438 ]
+208 silly gunzTarPerm extractEntry deps/msgpack/gcc_atomic.cpp
+209 silly gunzTarPerm modified mode [ 'deps/msgpack/gcc_atomic.cpp', 420, 438 ]
+210 silly gunzTarPerm extractEntry deps/msgpack/gcc_atomic.h
+211 silly gunzTarPerm modified mode [ 'deps/msgpack/gcc_atomic.h', 420, 438 ]
+212 silly gunzTarPerm extractEntry test/ref-deref.js
+213 silly gunzTarPerm modified mode [ 'test/ref-deref.js', 420, 438 ]
+214 silly gunzTarPerm extractEntry test/reinterpret.js
+215 silly gunzTarPerm modified mode [ 'test/reinterpret.js', 420, 438 ]
+216 silly gunzTarPerm extractEntry README.md
+217 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+218 silly gunzTarPerm extractEntry index.coffee
+219 silly gunzTarPerm modified mode [ 'index.coffee', 436, 438 ]
+220 silly gunzTarPerm extractEntry test/reinterpretUntilZeros.js
+221 silly gunzTarPerm modified mode [ 'test/reinterpretUntilZeros.js', 420, 438 ]
+222 silly gunzTarPerm extractEntry test/string.js
+223 silly gunzTarPerm modified mode [ 'test/string.js', 420, 438 ]
+224 silly gunzTarPerm extractEntry package.json
+225 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+226 silly gunzTarPerm extractEntry deps/msgpack/msgpack/unpack.h
+227 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/unpack.h', 420, 438 ]
+228 silly gunzTarPerm extractEntry deps/msgpack/msgpack/object.h
+229 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/object.h', 420, 438 ]
+230 silly gunzTarPerm extractEntry test/bool.js
+231 silly gunzTarPerm modified mode [ 'test/bool.js', 420, 438 ]
+232 silly gunzTarPerm extractEntry test/types.js
+233 silly gunzTarPerm modified mode [ 'test/types.js', 420, 438 ]
+234 silly gunzTarPerm extractEntry test/
+235 silly gunzTarPerm modified mode [ 'test/', 509, 511 ]
+236 silly gunzTarPerm extractEntry test/chronos.coffee
+237 silly gunzTarPerm modified mode [ 'test/chronos.coffee', 436, 438 ]
+238 silly gunzTarPerm extractEntry test/alloc.js
+239 silly gunzTarPerm modified mode [ 'test/alloc.js', 420, 438 ]
+240 silly gunzTarPerm extractEntry test/object.js
+241 silly gunzTarPerm modified mode [ 'test/object.js', 420, 438 ]
+242 silly gunzTarPerm extractEntry test/utf16le.bin
+243 silly gunzTarPerm modified mode [ 'test/utf16le.bin', 420, 438 ]
+244 silly gunzTarPerm extractEntry appveyor.yml
+245 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+246 silly gunzTarPerm extractEntry deps/msgpack/msgpack/pack.h
+247 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/pack.h', 420, 438 ]
+248 silly gunzTarPerm extractEntry deps/msgpack/msgpack/pack.hpp
+249 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/pack.hpp', 420, 438 ]
+250 silly gunzTarPerm extractEntry binding.gyp
+251 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+252 silly gunzTarPerm extractEntry .travis.yml
+253 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+254 silly gunzTarPerm extractEntry deps/msgpack/msgpack/pack_define.h
+255 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/pack_define.h', 420, 438 ]
+256 silly gunzTarPerm extractEntry deps/msgpack/msgpack/pack_template.h
+257 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/pack_template.h', 420, 438 ]
+258 silly gunzTarPerm extractEntry deps/msgpack/msgpack/sbuffer.h
+259 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/sbuffer.h', 420, 438 ]
+260 silly gunzTarPerm extractEntry deps/msgpack/msgpack/sbuffer.hpp
+261 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/sbuffer.hpp', 420, 438 ]
+262 silly gunzTarPerm extractEntry lib/ref.js
+263 silly gunzTarPerm modified mode [ 'lib/ref.js', 420, 438 ]
+264 silly gunzTarPerm extractEntry src/binding.cc
+265 silly gunzTarPerm modified mode [ 'src/binding.cc', 420, 438 ]
+266 silly gunzTarPerm extractEntry History.md
+267 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+268 silly gunzTarPerm extractEntry docs/compile.js
+269 silly gunzTarPerm modified mode [ 'docs/compile.js', 420, 438 ]
+270 silly gunzTarPerm extractEntry deps/msgpack/msgpack/sysdep.h
+271 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/sysdep.h', 420, 438 ]
+272 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/nil.hpp
+273 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/nil.hpp', 420, 438 ]
+274 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/bool.hpp
+275 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/bool.hpp', 420, 438 ]
+276 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/deque.hpp
+277 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/deque.hpp', 420, 438 ]
+278 silly gunzTarPerm extractEntry docs/gh-pages.sh
+279 silly gunzTarPerm modified mode [ 'docs/gh-pages.sh', 493, 511 ]
+280 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-114x114.png
+281 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon-114x114.png', 420, 438 ]
+282 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-72x72.png
+283 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon-72x72.png', 420, 438 ]
+284 silly gunzTarPerm extractEntry docs/images/apple-touch-icon.png
+285 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon.png', 420, 438 ]
+286 silly lockFile 5ca80665-utler-node-modules-hubot-chronos tar://C:\hubot\Butler\node_modules\hubot-chronos
+287 silly lockFile 5ca80665-utler-node-modules-hubot-chronos tar://C:\hubot\Butler\node_modules\hubot-chronos
+288 silly lockFile 596157d9--hubot-chronos-0-0-1-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\hubot-chronos\0.0.1\package.tgz
+289 silly lockFile 596157d9--hubot-chronos-0-0-1-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\hubot-chronos\0.0.1\package.tgz
+290 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/fixint.hpp
+291 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/fixint.hpp', 420, 438 ]
+292 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/float.hpp
+293 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/float.hpp', 420, 438 ]
+294 silly gunzTarPerm extractEntry docs/images/favicon.ico
+295 silly gunzTarPerm modified mode [ 'docs/images/favicon.ico', 420, 438 ]
+296 silly gunzTarPerm extractEntry docs/images/ref.pxm
+297 silly gunzTarPerm modified mode [ 'docs/images/ref.pxm', 420, 438 ]
+298 info preinstall hubot-chronos@0.0.1
+299 verbose readDependencies using package.json deps
+300 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/int.hpp
+301 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/int.hpp', 420, 438 ]
+302 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/list.hpp
+303 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/list.hpp', 420, 438 ]
+304 verbose readDependencies using package.json deps
+305 silly gunzTarPerm extractEntry docs/index.jade
+306 silly gunzTarPerm modified mode [ 'docs/index.jade', 420, 438 ]
+307 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/map.hpp
+308 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/map.hpp', 420, 438 ]
+309 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/define.hpp
+310 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/define.hpp', 420, 438 ]
+311 silly gunzTarPerm extractEntry docs/scripts/jquery-1.7.2.min.js
+312 silly gunzTarPerm modified mode [ 'docs/scripts/jquery-1.7.2.min.js', 420, 438 ]
+313 silly gunzTarPerm extractEntry docs/scripts/main.js
+314 silly gunzTarPerm modified mode [ 'docs/scripts/main.js', 420, 438 ]
+315 silly gunzTarPerm extractEntry docs/stylesheets/base.css
+316 silly gunzTarPerm modified mode [ 'docs/stylesheets/base.css', 420, 438 ]
+317 silly gunzTarPerm extractEntry docs/stylesheets/layout.css
+318 silly gunzTarPerm modified mode [ 'docs/stylesheets/layout.css', 420, 438 ]
+319 silly gunzTarPerm extractEntry docs/stylesheets/skeleton.css
+320 silly gunzTarPerm modified mode [ 'docs/stylesheets/skeleton.css', 420, 438 ]
+321 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/pair.hpp
+322 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/pair.hpp', 420, 438 ]
+323 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/raw.hpp
+324 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/raw.hpp', 420, 438 ]
+325 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/set.hpp
+326 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/set.hpp', 420, 438 ]
+327 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/string.hpp
+328 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/string.hpp', 420, 438 ]
+329 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/tr1/unordered_map.hpp
+330 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/tr1/unordered_map.hpp', 420, 438 ]
+331 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/tr1/unordered_set.hpp
+332 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/tr1/unordered_set.hpp', 420, 438 ]
+333 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/tuple.hpp
+334 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/tuple.hpp', 420, 438 ]
+335 verbose cache add [ 'cron@~1.0.1', null ]
+336 verbose cache add name=undefined spec="cron@~1.0.1" args=["cron@~1.0.1",null]
+337 verbose parsed url { protocol: null,
+337 verbose parsed url   slashes: null,
+337 verbose parsed url   auth: null,
+337 verbose parsed url   host: null,
+337 verbose parsed url   port: null,
+337 verbose parsed url   hostname: null,
+337 verbose parsed url   hash: null,
+337 verbose parsed url   search: null,
+337 verbose parsed url   query: null,
+337 verbose parsed url   pathname: 'cron@~1.0.1',
+337 verbose parsed url   path: 'cron@~1.0.1',
+337 verbose parsed url   href: 'cron@~1.0.1' }
+338 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type/vector.hpp
+339 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type/vector.hpp', 420, 438 ]
+340 verbose cache add name="cron" spec="~1.0.1" args=["cron","~1.0.1"]
+341 verbose parsed url { protocol: null,
+341 verbose parsed url   slashes: null,
+341 verbose parsed url   auth: null,
+341 verbose parsed url   host: null,
+341 verbose parsed url   port: null,
+341 verbose parsed url   hostname: null,
+341 verbose parsed url   hash: null,
+341 verbose parsed url   search: null,
+341 verbose parsed url   query: null,
+341 verbose parsed url   pathname: '~1.0.1',
+341 verbose parsed url   path: '~1.0.1',
+341 verbose parsed url   href: '~1.0.1' }
+342 verbose addNamed [ 'cron', '~1.0.1' ]
+343 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+344 silly lockFile 1eea9e15-cron-1-0-1 cron@~1.0.1
+345 verbose lock cron@~1.0.1 C:\Users\Jaglag\AppData\Roaming\npm-cache\1eea9e15-cron-1-0-1.lock
+346 silly addNameRange { name: 'cron', range: '>=1.0.1-0 <1.1.0-0', hasData: false }
+347 verbose request where is /cron
+348 verbose request registry https://registry.npmjs.org/
+349 verbose url raw /cron
+350 verbose url resolving [ 'https://registry.npmjs.org/', './cron' ]
+351 verbose url resolved https://registry.npmjs.org/cron
+352 verbose request where is https://registry.npmjs.org/cron
+353 info trying registry request attempt 1 at 10:13:22
+354 verbose etag "2UBQDQY9XKZVVQZPYYLBTT9TQ"
+355 http GET https://registry.npmjs.org/cron
+356 silly gunzTarPerm extractEntry deps/msgpack/msgpack/type.hpp
+357 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/type.hpp', 420, 438 ]
+358 silly gunzTarPerm extractEntry deps/msgpack/msgpack/object.hpp
+359 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/object.hpp', 420, 438 ]
+360 silly gunzTarPerm extractEntry deps/msgpack/msgpack/unpack.hpp
+361 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/unpack.hpp', 420, 438 ]
+362 silly gunzTarPerm extractEntry deps/msgpack/msgpack/unpack_define.h
+363 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/unpack_define.h', 420, 438 ]
+364 silly gunzTarPerm extractEntry deps/msgpack/msgpack/unpack_template.h
+365 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/unpack_template.h', 420, 438 ]
+366 silly gunzTarPerm extractEntry deps/msgpack/msgpack/version.h
+367 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/version.h', 420, 438 ]
+368 silly gunzTarPerm extractEntry deps/msgpack/msgpack/vrefbuffer.h
+369 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/vrefbuffer.h', 420, 438 ]
+370 silly gunzTarPerm extractEntry deps/msgpack/msgpack/vrefbuffer.hpp
+371 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/vrefbuffer.hpp', 420, 438 ]
+372 silly gunzTarPerm extractEntry deps/msgpack/msgpack/zbuffer.h
+373 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/zbuffer.h', 420, 438 ]
+374 silly gunzTarPerm extractEntry deps/msgpack/msgpack/zbuffer.hpp
+375 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/zbuffer.hpp', 420, 438 ]
+376 silly gunzTarPerm extractEntry deps/msgpack/msgpack/zone.h
+377 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/zone.h', 420, 438 ]
+378 silly gunzTarPerm extractEntry deps/msgpack/msgpack/zone.hpp
+379 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack/zone.hpp', 420, 438 ]
+380 silly gunzTarPerm extractEntry deps/msgpack/msgpack.gyp
+381 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack.gyp', 420, 438 ]
+382 silly gunzTarPerm extractEntry deps/msgpack/COPYING
+383 silly gunzTarPerm modified mode [ 'deps/msgpack/COPYING', 420, 438 ]
+384 silly gunzTarPerm extractEntry deps/msgpack/msgpack.hpp
+385 silly gunzTarPerm modified mode [ 'deps/msgpack/msgpack.hpp', 420, 438 ]
+386 silly gunzTarPerm extractEntry deps/msgpack/object.cpp
+387 silly gunzTarPerm modified mode [ 'deps/msgpack/object.cpp', 420, 438 ]
+388 silly gunzTarPerm extractEntry deps/msgpack/objectc.c
+389 silly gunzTarPerm modified mode [ 'deps/msgpack/objectc.c', 420, 438 ]
+390 silly gunzTarPerm extractEntry deps/msgpack/unpack.c
+391 silly gunzTarPerm modified mode [ 'deps/msgpack/unpack.c', 420, 438 ]
+392 silly gunzTarPerm extractEntry deps/msgpack/version.c
+393 silly gunzTarPerm modified mode [ 'deps/msgpack/version.c', 420, 438 ]
+394 silly gunzTarPerm extractEntry deps/msgpack/vrefbuffer.c
+395 silly gunzTarPerm modified mode [ 'deps/msgpack/vrefbuffer.c', 420, 438 ]
+396 silly gunzTarPerm extractEntry deps/msgpack/zone.c
+397 silly gunzTarPerm modified mode [ 'deps/msgpack/zone.c', 420, 438 ]
+398 silly gunzTarPerm extractEntry test/regression.js
+399 silly gunzTarPerm modified mode [ 'test/regression.js', 420, 438 ]
+400 silly gunzTarPerm extractEntry test/benchmark/benchmark.js
+401 silly gunzTarPerm modified mode [ 'test/benchmark/benchmark.js', 420, 438 ]
+402 silly gunzTarPerm extractEntry test/fixtures/stub.js
+403 silly gunzTarPerm modified mode [ 'test/fixtures/stub.js', 420, 438 ]
+404 silly gunzTarPerm extractEntry test/lib/msgpack.js
+405 silly gunzTarPerm modified mode [ 'test/lib/msgpack.js', 420, 438 ]
+406 silly gunzTarPerm extractEntry src/msgpack.cc
+407 silly gunzTarPerm modified mode [ 'src/msgpack.cc', 420, 438 ]
+408 silly gunzTarPerm extractEntry bin/json2msgpack
+409 silly gunzTarPerm modified mode [ 'bin/json2msgpack', 493, 511 ]
+410 silly gunzTarPerm extractEntry bin/msgpack2json
+411 silly gunzTarPerm modified mode [ 'bin/msgpack2json', 493, 511 ]
+412 silly gunzTarPerm extractEntry run_tests
+413 silly gunzTarPerm modified mode [ 'run_tests', 493, 511 ]
+414 silly gunzTarPerm extractEntry lib/msgpack.js
+415 silly gunzTarPerm modified mode [ 'lib/msgpack.js', 420, 438 ]
+416 silly lockFile 5b1e6792--C-hubot-Butler-node-modules-ref tar://C:\hubot\Butler\node_modules\ref
+417 silly lockFile 5b1e6792--C-hubot-Butler-node-modules-ref tar://C:\hubot\Butler\node_modules\ref
+418 silly lockFile 17764560--npm-cache-ref-0-3-2-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\ref\0.3.2\package.tgz
+419 silly lockFile 17764560--npm-cache-ref-0-3-2-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\ref\0.3.2\package.tgz
+420 info preinstall ref@0.3.2
+421 verbose readDependencies using package.json deps
+422 verbose readDependencies using package.json deps
+423 verbose cache add [ 'bindings@~1.2.0', null ]
+424 verbose cache add name=undefined spec="bindings@~1.2.0" args=["bindings@~1.2.0",null]
+425 verbose parsed url { protocol: null,
+425 verbose parsed url   slashes: null,
+425 verbose parsed url   auth: null,
+425 verbose parsed url   host: null,
+425 verbose parsed url   port: null,
+425 verbose parsed url   hostname: null,
+425 verbose parsed url   hash: null,
+425 verbose parsed url   search: null,
+425 verbose parsed url   query: null,
+425 verbose parsed url   pathname: 'bindings@~1.2.0',
+425 verbose parsed url   path: 'bindings@~1.2.0',
+425 verbose parsed url   href: 'bindings@~1.2.0' }
+426 verbose cache add [ 'debug@~1.0.1', null ]
+427 verbose cache add name=undefined spec="debug@~1.0.1" args=["debug@~1.0.1",null]
+428 verbose parsed url { protocol: null,
+428 verbose parsed url   slashes: null,
+428 verbose parsed url   auth: null,
+428 verbose parsed url   host: null,
+428 verbose parsed url   port: null,
+428 verbose parsed url   hostname: null,
+428 verbose parsed url   hash: null,
+428 verbose parsed url   search: null,
+428 verbose parsed url   query: null,
+428 verbose parsed url   pathname: 'debug@~1.0.1',
+428 verbose parsed url   path: 'debug@~1.0.1',
+428 verbose parsed url   href: 'debug@~1.0.1' }
+429 verbose cache add [ 'nan@~1.2.0', null ]
+430 verbose cache add name=undefined spec="nan@~1.2.0" args=["nan@~1.2.0",null]
+431 verbose parsed url { protocol: null,
+431 verbose parsed url   slashes: null,
+431 verbose parsed url   auth: null,
+431 verbose parsed url   host: null,
+431 verbose parsed url   port: null,
+431 verbose parsed url   hostname: null,
+431 verbose parsed url   hash: null,
+431 verbose parsed url   search: null,
+431 verbose parsed url   query: null,
+431 verbose parsed url   pathname: 'nan@~1.2.0',
+431 verbose parsed url   path: 'nan@~1.2.0',
+431 verbose parsed url   href: 'nan@~1.2.0' }
+432 verbose cache add name="bindings" spec="~1.2.0" args=["bindings","~1.2.0"]
+433 verbose parsed url { protocol: null,
+433 verbose parsed url   slashes: null,
+433 verbose parsed url   auth: null,
+433 verbose parsed url   host: null,
+433 verbose parsed url   port: null,
+433 verbose parsed url   hostname: null,
+433 verbose parsed url   hash: null,
+433 verbose parsed url   search: null,
+433 verbose parsed url   query: null,
+433 verbose parsed url   pathname: '~1.2.0',
+433 verbose parsed url   path: '~1.2.0',
+433 verbose parsed url   href: '~1.2.0' }
+434 verbose addNamed [ 'bindings', '~1.2.0' ]
+435 verbose addNamed [ null, '>=1.2.0-0 <1.3.0-0' ]
+436 silly lockFile b6dd1de3-bindings-1-2-0 bindings@~1.2.0
+437 verbose lock bindings@~1.2.0 C:\Users\Jaglag\AppData\Roaming\npm-cache\b6dd1de3-bindings-1-2-0.lock
+438 verbose cache add name="debug" spec="~1.0.1" args=["debug","~1.0.1"]
+439 verbose parsed url { protocol: null,
+439 verbose parsed url   slashes: null,
+439 verbose parsed url   auth: null,
+439 verbose parsed url   host: null,
+439 verbose parsed url   port: null,
+439 verbose parsed url   hostname: null,
+439 verbose parsed url   hash: null,
+439 verbose parsed url   search: null,
+439 verbose parsed url   query: null,
+439 verbose parsed url   pathname: '~1.0.1',
+439 verbose parsed url   path: '~1.0.1',
+439 verbose parsed url   href: '~1.0.1' }
+440 verbose addNamed [ 'debug', '~1.0.1' ]
+441 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+442 silly lockFile 7e870cd6-debug-1-0-1 debug@~1.0.1
+443 verbose lock debug@~1.0.1 C:\Users\Jaglag\AppData\Roaming\npm-cache\7e870cd6-debug-1-0-1.lock
+444 verbose cache add name="nan" spec="~1.2.0" args=["nan","~1.2.0"]
+445 verbose parsed url { protocol: null,
+445 verbose parsed url   slashes: null,
+445 verbose parsed url   auth: null,
+445 verbose parsed url   host: null,
+445 verbose parsed url   port: null,
+445 verbose parsed url   hostname: null,
+445 verbose parsed url   hash: null,
+445 verbose parsed url   search: null,
+445 verbose parsed url   query: null,
+445 verbose parsed url   pathname: '~1.2.0',
+445 verbose parsed url   path: '~1.2.0',
+445 verbose parsed url   href: '~1.2.0' }
+446 verbose addNamed [ 'nan', '~1.2.0' ]
+447 verbose addNamed [ null, '>=1.2.0-0 <1.3.0-0' ]
+448 silly lockFile 6bb36ab7-nan-1-2-0 nan@~1.2.0
+449 verbose lock nan@~1.2.0 C:\Users\Jaglag\AppData\Roaming\npm-cache\6bb36ab7-nan-1-2-0.lock
+450 silly addNameRange { name: 'debug', range: '>=1.0.1-0 <1.1.0-0', hasData: false }
+451 silly addNameRange { name: 'bindings', range: '>=1.2.0-0 <1.3.0-0', hasData: false }
+452 silly addNameRange { name: 'nan', range: '>=1.2.0-0 <1.3.0-0', hasData: false }
+453 verbose request where is /bindings
+454 verbose request registry https://registry.npmjs.org/
+455 verbose url raw /bindings
+456 verbose url resolving [ 'https://registry.npmjs.org/', './bindings' ]
+457 verbose url resolved https://registry.npmjs.org/bindings
+458 verbose request where is https://registry.npmjs.org/bindings
+459 info trying registry request attempt 1 at 10:13:22
+460 verbose etag "HHDEMUMZU8OTS1DUFQCBQQ8Z"
+461 http GET https://registry.npmjs.org/bindings
+462 verbose request where is /debug
+463 verbose request registry https://registry.npmjs.org/
+464 verbose url raw /debug
+465 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+466 verbose url resolved https://registry.npmjs.org/debug
+467 verbose request where is https://registry.npmjs.org/debug
+468 info trying registry request attempt 1 at 10:13:22
+469 verbose etag "3E1RX8WQJRE9U0DUURZQDYODZ"
+470 http GET https://registry.npmjs.org/debug
+471 verbose request where is /nan
+472 verbose request registry https://registry.npmjs.org/
+473 verbose url raw /nan
+474 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+475 verbose url resolved https://registry.npmjs.org/nan
+476 verbose request where is https://registry.npmjs.org/nan
+477 info trying registry request attempt 1 at 10:13:22
+478 verbose etag "1V4L4UHAMWZFH6I69YC8D2UBS"
+479 http GET https://registry.npmjs.org/nan
+480 silly lockFile dc99931d-ubot-Butler-node-modules-msgpack tar://C:\hubot\Butler\node_modules\msgpack
+481 silly lockFile dc99931d-ubot-Butler-node-modules-msgpack tar://C:\hubot\Butler\node_modules\msgpack
+482 silly lockFile 2ed6706c--cache-msgpack-0-2-4-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\msgpack\0.2.4\package.tgz
+483 silly lockFile 2ed6706c--cache-msgpack-0-2-4-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\msgpack\0.2.4\package.tgz
+484 info preinstall msgpack@0.2.4
+485 verbose readDependencies using package.json deps
+486 verbose readDependencies using package.json deps
+487 verbose cache add [ 'nan@~1.0.0', null ]
+488 verbose cache add name=undefined spec="nan@~1.0.0" args=["nan@~1.0.0",null]
+489 verbose parsed url { protocol: null,
+489 verbose parsed url   slashes: null,
+489 verbose parsed url   auth: null,
+489 verbose parsed url   host: null,
+489 verbose parsed url   port: null,
+489 verbose parsed url   hostname: null,
+489 verbose parsed url   hash: null,
+489 verbose parsed url   search: null,
+489 verbose parsed url   query: null,
+489 verbose parsed url   pathname: 'nan@~1.0.0',
+489 verbose parsed url   path: 'nan@~1.0.0',
+489 verbose parsed url   href: 'nan@~1.0.0' }
+490 verbose cache add name="nan" spec="~1.0.0" args=["nan","~1.0.0"]
+491 verbose parsed url { protocol: null,
+491 verbose parsed url   slashes: null,
+491 verbose parsed url   auth: null,
+491 verbose parsed url   host: null,
+491 verbose parsed url   port: null,
+491 verbose parsed url   hostname: null,
+491 verbose parsed url   hash: null,
+491 verbose parsed url   search: null,
+491 verbose parsed url   query: null,
+491 verbose parsed url   pathname: '~1.0.0',
+491 verbose parsed url   path: '~1.0.0',
+491 verbose parsed url   href: '~1.0.0' }
+492 verbose addNamed [ 'nan', '~1.0.0' ]
+493 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+494 silly lockFile 66a60b03-nan-1-0-0 nan@~1.0.0
+495 verbose lock nan@~1.0.0 C:\Users\Jaglag\AppData\Roaming\npm-cache\66a60b03-nan-1-0-0.lock
+496 silly addNameRange { name: 'nan', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+497 verbose request where is /nan
+498 verbose request registry https://registry.npmjs.org/
+499 verbose url raw /nan
+500 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+501 verbose url resolved https://registry.npmjs.org/nan
+502 verbose request where is https://registry.npmjs.org/nan
+503 info trying registry request attempt 1 at 10:13:22
+504 verbose etag "1V4L4UHAMWZFH6I69YC8D2UBS"
+505 http GET https://registry.npmjs.org/nan
+506 http 304 https://registry.npmjs.org/cron
+507 silly registry.get cb [ 304,
+507 silly registry.get   { date: 'Sun, 24 Aug 2014 08:13:13 GMT',
+507 silly registry.get     server: 'Apache',
+507 silly registry.get     via: '1.1 varnish',
+507 silly registry.get     'last-modified': 'Sun, 24 Aug 2014 08:13:13 GMT',
+507 silly registry.get     'cache-control': 'max-age=60',
+507 silly registry.get     etag: '"2UBQDQY9XKZVVQZPYYLBTT9TQ"',
+507 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+507 silly registry.get     'x-cache': 'HIT',
+507 silly registry.get     'x-cache-hits': '1',
+507 silly registry.get     'x-timer': 'S1408867993.700857,VS0,VE0',
+507 silly registry.get     vary: 'Accept',
+507 silly registry.get     'content-length': '0',
+507 silly registry.get     'keep-alive': 'timeout=10, max=50',
+507 silly registry.get     connection: 'Keep-Alive' } ]
+508 verbose etag https://registry.npmjs.org/cron from cache
+509 silly addNameRange number 2 { name: 'cron', range: '>=1.0.1-0 <1.1.0-0', hasData: true }
+510 silly addNameRange versions [ 'cron',
+510 silly addNameRange   [ '0.1.0',
+510 silly addNameRange     '0.1.1',
+510 silly addNameRange     '0.1.2',
+510 silly addNameRange     '0.1.3',
+510 silly addNameRange     '0.2.0',
+510 silly addNameRange     '0.3.0',
+510 silly addNameRange     '0.3.1',
+510 silly addNameRange     '0.3.2',
+510 silly addNameRange     '0.3.3',
+510 silly addNameRange     '0.3.4',
+510 silly addNameRange     '1.0.0',
+510 silly addNameRange     '1.0.1',
+510 silly addNameRange     '1.0.2',
+510 silly addNameRange     '1.0.3',
+510 silly addNameRange     '1.0.4' ] ]
+511 verbose addNamed [ 'cron', '1.0.4' ]
+512 verbose addNamed [ '1.0.4', '1.0.4' ]
+513 silly lockFile 9a59fd6f-cron-1-0-4 cron@1.0.4
+514 verbose lock cron@1.0.4 C:\Users\Jaglag\AppData\Roaming\npm-cache\9a59fd6f-cron-1-0-4.lock
+515 silly lockFile 9a59fd6f-cron-1-0-4 cron@1.0.4
+516 silly lockFile 9a59fd6f-cron-1-0-4 cron@1.0.4
+517 silly lockFile 1eea9e15-cron-1-0-1 cron@~1.0.1
+518 silly lockFile 1eea9e15-cron-1-0-1 cron@~1.0.1
+519 silly resolved [ { name: 'cron',
+519 silly resolved     description: 'Cron jobs for your node',
+519 silly resolved     version: '1.0.4',
+519 silly resolved     author:
+519 silly resolved      { name: 'Nick Campbell',
+519 silly resolved        email: 'nicholas.j.campbell@gmail.com',
+519 silly resolved        url: 'http://github.com/ncb000gt' },
+519 silly resolved     bugs: { url: 'http://github.com/ncb000gt/node-cron/issues' },
+519 silly resolved     repository: { type: 'git', url: 'http://github.com/ncb000gt/node-cron.git' },
+519 silly resolved     main: 'lib/cron',
+519 silly resolved     scripts: { test: 'make test' },
+519 silly resolved     devDependencies: { nodeunit: '>=0.5.4', time: '0.8.0' },
+519 silly resolved     licenses: [ [Object] ],
+519 silly resolved     contributors:
+519 silly resolved      [ [Object],
+519 silly resolved        [Object],
+519 silly resolved        [Object],
+519 silly resolved        [Object],
+519 silly resolved        [Object],
+519 silly resolved        [Object],
+519 silly resolved        [Object],
+519 silly resolved        [Object],
+519 silly resolved        [Object],
+519 silly resolved        [Object] ],
+519 silly resolved     homepage: 'https://github.com/ncb000gt/node-cron',
+519 silly resolved     _id: 'cron@1.0.4',
+519 silly resolved     dist:
+519 silly resolved      { shasum: '591e58ad2410a21221cd67a8aecaaf5771b2046b',
+519 silly resolved        tarball: 'http://registry.npmjs.org/cron/-/cron-1.0.4.tgz' },
+519 silly resolved     _from: 'cron@~1.0.1',
+519 silly resolved     _npmVersion: '1.4.3',
+519 silly resolved     _npmUser: { name: 'ncb000gt', email: 'nicholas.j.campbell@gmail.com' },
+519 silly resolved     maintainers: [ [Object] ],
+519 silly resolved     directories: {},
+519 silly resolved     _shasum: '591e58ad2410a21221cd67a8aecaaf5771b2046b',
+519 silly resolved     _resolved: 'https://registry.npmjs.org/cron/-/cron-1.0.4.tgz',
+519 silly resolved     readme: 'ERROR: No README data found!' } ]
+520 info install cron@1.0.4 into C:\hubot\Butler\node_modules\hubot-chronos
+521 info installOne cron@1.0.4
+522 verbose node_modules\hubot-chronos\node_modules\cron unbuild
+523 verbose tar unpack C:\Users\Jaglag\AppData\Roaming\npm-cache\cron\1.0.4\package.tgz
+524 silly lockFile 9631d500--hubot-chronos-node-modules-cron tar://C:\hubot\Butler\node_modules\hubot-chronos\node_modules\cron
+525 verbose lock tar://C:\hubot\Butler\node_modules\hubot-chronos\node_modules\cron C:\Users\Jaglag\AppData\Roaming\npm-cache\9631d500--hubot-chronos-node-modules-cron.lock
+526 silly lockFile 79b79152-npm-cache-cron-1-0-4-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\cron\1.0.4\package.tgz
+527 verbose lock tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\cron\1.0.4\package.tgz C:\Users\Jaglag\AppData\Roaming\npm-cache\79b79152-npm-cache-cron-1-0-4-package-tgz.lock
+528 silly gunzTarPerm modes [ '777', '666' ]
+529 silly gunzTarPerm extractEntry package.json
+530 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+531 silly gunzTarPerm extractEntry .npmignore
+532 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+533 silly gunzTarPerm extractEntry README.md
+534 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+535 silly gunzTarPerm extractEntry .travis.yml
+536 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+537 silly gunzTarPerm extractEntry Makefile
+538 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+539 silly gunzTarPerm extractEntry bower.json
+540 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+541 silly gunzTarPerm extractEntry lib/cron.js
+542 silly gunzTarPerm modified mode [ 'lib/cron.js', 420, 438 ]
+543 silly gunzTarPerm extractEntry tests/test-cron.js
+544 silly gunzTarPerm modified mode [ 'tests/test-cron.js', 420, 438 ]
+545 silly gunzTarPerm extractEntry tests/test-crontime.js
+546 silly gunzTarPerm modified mode [ 'tests/test-crontime.js', 420, 438 ]
+547 silly lockFile 9631d500--hubot-chronos-node-modules-cron tar://C:\hubot\Butler\node_modules\hubot-chronos\node_modules\cron
+548 silly lockFile 9631d500--hubot-chronos-node-modules-cron tar://C:\hubot\Butler\node_modules\hubot-chronos\node_modules\cron
+549 silly lockFile 79b79152-npm-cache-cron-1-0-4-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\cron\1.0.4\package.tgz
+550 silly lockFile 79b79152-npm-cache-cron-1-0-4-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\cron\1.0.4\package.tgz
+551 info preinstall cron@1.0.4
+552 verbose readDependencies using package.json deps
+553 verbose readDependencies using package.json deps
+554 silly resolved []
+555 verbose about to build C:\hubot\Butler\node_modules\hubot-chronos\node_modules\cron
+556 info build C:\hubot\Butler\node_modules\hubot-chronos\node_modules\cron
+557 verbose linkStuff [ false,
+557 verbose linkStuff   false,
+557 verbose linkStuff   false,
+557 verbose linkStuff   'C:\\hubot\\Butler\\node_modules\\hubot-chronos\\node_modules' ]
+558 info linkStuff cron@1.0.4
+559 verbose linkBins cron@1.0.4
+560 verbose linkMans cron@1.0.4
+561 verbose rebuildBundles cron@1.0.4
+562 info install cron@1.0.4
+563 info postinstall cron@1.0.4
+564 verbose about to build C:\hubot\Butler\node_modules\hubot-chronos
+565 info build C:\hubot\Butler\node_modules\hubot-chronos
+566 verbose linkStuff [ false, false, false, 'C:\\hubot\\Butler\\node_modules' ]
+567 info linkStuff hubot-chronos@0.0.1
+568 verbose linkBins hubot-chronos@0.0.1
+569 verbose linkMans hubot-chronos@0.0.1
+570 verbose rebuildBundles hubot-chronos@0.0.1
+571 verbose rebuildBundles [ 'cron' ]
+572 info install hubot-chronos@0.0.1
+573 info postinstall hubot-chronos@0.0.1
+574 http 304 https://registry.npmjs.org/bindings
+575 silly registry.get cb [ 304,
+575 silly registry.get   { date: 'Sun, 24 Aug 2014 08:13:13 GMT',
+575 silly registry.get     server: 'Apache',
+575 silly registry.get     via: '1.1 varnish',
+575 silly registry.get     'last-modified': 'Sun, 24 Aug 2014 08:13:13 GMT',
+575 silly registry.get     'cache-control': 'max-age=60',
+575 silly registry.get     etag: '"HHDEMUMZU8OTS1DUFQCBQQ8Z"',
+575 silly registry.get     'x-served-by': 'cache-fra1232-FRA',
+575 silly registry.get     'x-cache': 'HIT',
+575 silly registry.get     'x-cache-hits': '1',
+575 silly registry.get     'x-timer': 'S1408867993.758850,VS0,VE0',
+575 silly registry.get     vary: 'Accept',
+575 silly registry.get     'content-length': '0',
+575 silly registry.get     'keep-alive': 'timeout=10, max=50',
+575 silly registry.get     connection: 'Keep-Alive' } ]
+576 verbose etag https://registry.npmjs.org/bindings from cache
+577 http 304 https://registry.npmjs.org/debug
+578 silly registry.get cb [ 304,
+578 silly registry.get   { date: 'Sun, 24 Aug 2014 08:13:13 GMT',
+578 silly registry.get     server: 'Apache',
+578 silly registry.get     via: '1.1 varnish',
+578 silly registry.get     'last-modified': 'Sun, 24 Aug 2014 08:13:13 GMT',
+578 silly registry.get     'cache-control': 'max-age=60',
+578 silly registry.get     etag: '"3E1RX8WQJRE9U0DUURZQDYODZ"',
+578 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+578 silly registry.get     'x-cache': 'HIT',
+578 silly registry.get     'x-cache-hits': '1',
+578 silly registry.get     'x-timer': 'S1408867993.760681,VS0,VE0',
+578 silly registry.get     vary: 'Accept',
+578 silly registry.get     'content-length': '0',
+578 silly registry.get     'keep-alive': 'timeout=10, max=50',
+578 silly registry.get     connection: 'Keep-Alive' } ]
+579 verbose etag https://registry.npmjs.org/debug from cache
+580 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.0-0 <1.3.0-0', hasData: true }
+581 silly addNameRange versions [ 'bindings',
+581 silly addNameRange   [ '0.0.1',
+581 silly addNameRange     '0.1.0',
+581 silly addNameRange     '0.1.1',
+581 silly addNameRange     '0.2.0',
+581 silly addNameRange     '0.2.1',
+581 silly addNameRange     '0.2.2',
+581 silly addNameRange     '0.2.3',
+581 silly addNameRange     '0.2.4',
+581 silly addNameRange     '0.3.0',
+581 silly addNameRange     '0.4.0',
+581 silly addNameRange     '1.0.0',
+581 silly addNameRange     '1.1.0',
+581 silly addNameRange     '1.1.1',
+581 silly addNameRange     '1.2.0',
+581 silly addNameRange     '1.2.1' ] ]
+582 verbose addNamed [ 'bindings', '1.2.1' ]
+583 verbose addNamed [ '1.2.1', '1.2.1' ]
+584 silly lockFile e9060511-bindings-1-2-1 bindings@1.2.1
+585 verbose lock bindings@1.2.1 C:\Users\Jaglag\AppData\Roaming\npm-cache\e9060511-bindings-1-2-1.lock
+586 silly addNameRange number 2 { name: 'debug', range: '>=1.0.1-0 <1.1.0-0', hasData: true }
+587 silly addNameRange versions [ 'debug',
+587 silly addNameRange   [ '0.0.1',
+587 silly addNameRange     '0.1.0',
+587 silly addNameRange     '0.2.0',
+587 silly addNameRange     '0.3.0',
+587 silly addNameRange     '0.4.0',
+587 silly addNameRange     '0.4.1',
+587 silly addNameRange     '0.5.0',
+587 silly addNameRange     '0.6.0',
+587 silly addNameRange     '0.7.0',
+587 silly addNameRange     '0.7.1',
+587 silly addNameRange     '0.7.2',
+587 silly addNameRange     '0.7.3',
+587 silly addNameRange     '0.7.4',
+587 silly addNameRange     '0.8.0',
+587 silly addNameRange     '0.8.1',
+587 silly addNameRange     '1.0.0',
+587 silly addNameRange     '1.0.1',
+587 silly addNameRange     '1.0.2',
+587 silly addNameRange     '1.0.3',
+587 silly addNameRange     '1.0.4' ] ]
+588 verbose addNamed [ 'debug', '1.0.4' ]
+589 verbose addNamed [ '1.0.4', '1.0.4' ]
+590 silly lockFile 4b7cd263-debug-1-0-4 debug@1.0.4
+591 verbose lock debug@1.0.4 C:\Users\Jaglag\AppData\Roaming\npm-cache\4b7cd263-debug-1-0-4.lock
+592 silly lockFile e9060511-bindings-1-2-1 bindings@1.2.1
+593 silly lockFile e9060511-bindings-1-2-1 bindings@1.2.1
+594 silly lockFile b6dd1de3-bindings-1-2-0 bindings@~1.2.0
+595 silly lockFile b6dd1de3-bindings-1-2-0 bindings@~1.2.0
+596 silly lockFile 4b7cd263-debug-1-0-4 debug@1.0.4
+597 silly lockFile 4b7cd263-debug-1-0-4 debug@1.0.4
+598 silly lockFile 7e870cd6-debug-1-0-1 debug@~1.0.1
+599 silly lockFile 7e870cd6-debug-1-0-1 debug@~1.0.1
+600 http 304 https://registry.npmjs.org/nan
+601 silly registry.get cb [ 304,
+601 silly registry.get   { date: 'Sun, 24 Aug 2014 08:13:13 GMT',
+601 silly registry.get     server: 'Apache',
+601 silly registry.get     via: '1.1 varnish',
+601 silly registry.get     'last-modified': 'Sun, 24 Aug 2014 08:12:44 GMT',
+601 silly registry.get     'cache-control': 'max-age=60',
+601 silly registry.get     etag: '"1V4L4UHAMWZFH6I69YC8D2UBS"',
+601 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+601 silly registry.get     'x-cache': 'HIT',
+601 silly registry.get     'x-cache-hits': '2',
+601 silly registry.get     'x-timer': 'S1408867993.765732,VS0,VE0',
+601 silly registry.get     vary: 'Accept',
+601 silly registry.get     'content-length': '0',
+601 silly registry.get     'keep-alive': 'timeout=10, max=50',
+601 silly registry.get     connection: 'Keep-Alive' } ]
+602 verbose etag https://registry.npmjs.org/nan from cache
+603 silly addNameRange number 2 { name: 'nan', range: '>=1.2.0-0 <1.3.0-0', hasData: true }
+604 silly addNameRange versions [ 'nan',
+604 silly addNameRange   [ '0.3.0-wip',
+604 silly addNameRange     '0.3.0-wip2',
+604 silly addNameRange     '0.3.0',
+604 silly addNameRange     '0.3.1',
+604 silly addNameRange     '0.3.2',
+604 silly addNameRange     '0.4.0',
+604 silly addNameRange     '0.4.1',
+604 silly addNameRange     '0.4.2',
+604 silly addNameRange     '0.4.3',
+604 silly addNameRange     '0.4.4',
+604 silly addNameRange     '0.5.0',
+604 silly addNameRange     '0.5.1',
+604 silly addNameRange     '0.5.2',
+604 silly addNameRange     '0.6.0',
+604 silly addNameRange     '0.7.0',
+604 silly addNameRange     '0.7.1',
+604 silly addNameRange     '0.8.0',
+604 silly addNameRange     '1.0.0',
+604 silly addNameRange     '1.1.0',
+604 silly addNameRange     '1.1.1',
+604 silly addNameRange     '1.1.2',
+604 silly addNameRange     '1.2.0',
+604 silly addNameRange     '1.3.0' ] ]
+605 verbose addNamed [ 'nan', '1.2.0' ]
+606 verbose addNamed [ '1.2.0', '1.2.0' ]
+607 silly lockFile 859d0f28-nan-1-2-0 nan@1.2.0
+608 verbose lock nan@1.2.0 C:\Users\Jaglag\AppData\Roaming\npm-cache\859d0f28-nan-1-2-0.lock
+609 silly lockFile 859d0f28-nan-1-2-0 nan@1.2.0
+610 silly lockFile 859d0f28-nan-1-2-0 nan@1.2.0
+611 silly lockFile 6bb36ab7-nan-1-2-0 nan@~1.2.0
+612 silly lockFile 6bb36ab7-nan-1-2-0 nan@~1.2.0
+613 silly resolved [ { name: 'bindings',
+613 silly resolved     description: 'Helper module for loading your native module\'s .node file',
+613 silly resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+613 silly resolved     version: '1.2.1',
+613 silly resolved     author:
+613 silly resolved      { name: 'Nathan Rajlich',
+613 silly resolved        email: 'nathan@tootallnate.net',
+613 silly resolved        url: 'http://tootallnate.net' },
+613 silly resolved     repository:
+613 silly resolved      { type: 'git',
+613 silly resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+613 silly resolved     main: './bindings.js',
+613 silly resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+613 silly resolved     homepage: 'https://github.com/TooTallNate/node-bindings',
+613 silly resolved     license: 'MIT',
+613 silly resolved     gitHead: 'e404152ee27f8478ccbc7122ee051246e8e5ec02',
+613 silly resolved     _id: 'bindings@1.2.1',
+613 silly resolved     scripts: {},
+613 silly resolved     _shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+613 silly resolved     _from: 'bindings@~1.2.0',
+613 silly resolved     _npmVersion: '1.4.14',
+613 silly resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+613 silly resolved     maintainers: [ [Object], [Object] ],
+613 silly resolved     dist:
+613 silly resolved      { shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+613 silly resolved        tarball: 'http://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz' },
+613 silly resolved     directories: {},
+613 silly resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+613 silly resolved     readme: 'ERROR: No README data found!' },
+613 silly resolved   { name: 'debug',
+613 silly resolved     version: '1.0.4',
+613 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+613 silly resolved     description: 'small debugging utility',
+613 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+613 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+613 silly resolved     contributors: [ [Object] ],
+613 silly resolved     dependencies: { ms: '0.6.2' },
+613 silly resolved     devDependencies: { browserify: '4.1.6', mocha: '*' },
+613 silly resolved     main: './node.js',
+613 silly resolved     browser: './browser.js',
+613 silly resolved     component: { scripts: [Object] },
+613 silly resolved     gitHead: 'abc10a5912f79d251752d18350e269fe0b0fbbf9',
+613 silly resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+613 silly resolved     homepage: 'https://github.com/visionmedia/debug',
+613 silly resolved     _id: 'debug@1.0.4',
+613 silly resolved     scripts: {},
+613 silly resolved     _shasum: '5b9c256bd54b6ec02283176fa8a0ede6d154cbf8',
+613 silly resolved     _from: 'debug@~1.0.1',
+613 silly resolved     _npmVersion: '1.4.14',
+613 silly resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+613 silly resolved     maintainers: [ [Object], [Object] ],
+613 silly resolved     dist:
+613 silly resolved      { shasum: '5b9c256bd54b6ec02283176fa8a0ede6d154cbf8',
+613 silly resolved        tarball: 'http://registry.npmjs.org/debug/-/debug-1.0.4.tgz' },
+613 silly resolved     directories: {},
+613 silly resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-1.0.4.tgz',
+613 silly resolved     readme: 'ERROR: No README data found!' },
+613 silly resolved   { name: 'nan',
+613 silly resolved     version: '1.2.0',
+613 silly resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+613 silly resolved     main: 'include_dirs.js',
+613 silly resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+613 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+613 silly resolved     license: 'MIT',
+613 silly resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+613 silly resolved     homepage: 'https://github.com/rvagg/nan',
+613 silly resolved     _id: 'nan@1.2.0',
+613 silly resolved     dist:
+613 silly resolved      { shasum: '9c4d63ce9e4f8e95de2d574e18f7925554a8a8ef',
+613 silly resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.2.0.tgz' },
+613 silly resolved     _from: 'nan@~1.2.0',
+613 silly resolved     _npmVersion: '1.4.3',
+613 silly resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+613 silly resolved     maintainers: [ [Object] ],
+613 silly resolved     directories: {},
+613 silly resolved     _shasum: '9c4d63ce9e4f8e95de2d574e18f7925554a8a8ef',
+613 silly resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.2.0.tgz',
+613 silly resolved     readme: 'ERROR: No README data found!' } ]
+614 info install bindings@1.2.1 into C:\hubot\Butler\node_modules\ref
+615 info install debug@1.0.4 into C:\hubot\Butler\node_modules\ref
+616 info install nan@1.2.0 into C:\hubot\Butler\node_modules\ref
+617 info installOne bindings@1.2.1
+618 info installOne debug@1.0.4
+619 info installOne nan@1.2.0
+620 verbose node_modules\ref\node_modules\bindings unbuild
+621 verbose node_modules\ref\node_modules\debug unbuild
+622 verbose node_modules\ref\node_modules\nan unbuild
+623 verbose tar unpack C:\Users\Jaglag\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+624 silly lockFile f8948a44-odules-ref-node-modules-bindings tar://C:\hubot\Butler\node_modules\ref\node_modules\bindings
+625 verbose lock tar://C:\hubot\Butler\node_modules\ref\node_modules\bindings C:\Users\Jaglag\AppData\Roaming\npm-cache\f8948a44-odules-ref-node-modules-bindings.lock
+626 silly lockFile ff2e4a18-cache-bindings-1-2-1-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+627 verbose lock tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz C:\Users\Jaglag\AppData\Roaming\npm-cache\ff2e4a18-cache-bindings-1-2-1-package-tgz.lock
+628 verbose tar unpack C:\Users\Jaglag\AppData\Roaming\npm-cache\debug\1.0.4\package.tgz
+629 silly lockFile 9d722dd6-e-modules-ref-node-modules-debug tar://C:\hubot\Butler\node_modules\ref\node_modules\debug
+630 verbose lock tar://C:\hubot\Butler\node_modules\ref\node_modules\debug C:\Users\Jaglag\AppData\Roaming\npm-cache\9d722dd6-e-modules-ref-node-modules-debug.lock
+631 silly lockFile 6da48e44-pm-cache-debug-1-0-4-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\debug\1.0.4\package.tgz
+632 verbose lock tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\debug\1.0.4\package.tgz C:\Users\Jaglag\AppData\Roaming\npm-cache\6da48e44-pm-cache-debug-1-0-4-package-tgz.lock
+633 verbose tar unpack C:\Users\Jaglag\AppData\Roaming\npm-cache\nan\1.2.0\package.tgz
+634 silly lockFile 9e82f8a2-ode-modules-ref-node-modules-nan tar://C:\hubot\Butler\node_modules\ref\node_modules\nan
+635 verbose lock tar://C:\hubot\Butler\node_modules\ref\node_modules\nan C:\Users\Jaglag\AppData\Roaming\npm-cache\9e82f8a2-ode-modules-ref-node-modules-nan.lock
+636 silly lockFile 37bb905f--npm-cache-nan-1-2-0-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\nan\1.2.0\package.tgz
+637 verbose lock tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\nan\1.2.0\package.tgz C:\Users\Jaglag\AppData\Roaming\npm-cache\37bb905f--npm-cache-nan-1-2-0-package-tgz.lock
+638 silly gunzTarPerm modes [ '777', '666' ]
+639 silly gunzTarPerm modes [ '777', '666' ]
+640 silly gunzTarPerm modes [ '777', '666' ]
+641 silly gunzTarPerm extractEntry package.json
+642 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+643 silly gunzTarPerm extractEntry package.json
+644 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+645 silly gunzTarPerm extractEntry package.json
+646 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+647 silly gunzTarPerm extractEntry README.md
+648 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+649 silly gunzTarPerm extractEntry bindings.js
+650 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+651 silly gunzTarPerm extractEntry README.md
+652 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+653 silly gunzTarPerm extractEntry LICENSE
+654 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+655 silly gunzTarPerm extractEntry include_dirs.js
+656 silly gunzTarPerm modified mode [ 'include_dirs.js', 420, 438 ]
+657 silly gunzTarPerm extractEntry .dntrc
+658 silly gunzTarPerm modified mode [ '.dntrc', 420, 438 ]
+659 silly gunzTarPerm extractEntry build/config.gypi
+660 silly gunzTarPerm modified mode [ 'build/config.gypi', 420, 438 ]
+661 silly gunzTarPerm extractEntry nan.h
+662 silly gunzTarPerm modified mode [ 'nan.h', 420, 438 ]
+663 silly gunzTarPerm extractEntry .npmignore
+664 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+665 silly gunzTarPerm extractEntry node.js
+666 silly gunzTarPerm modified mode [ 'node.js', 420, 438 ]
+667 silly gunzTarPerm extractEntry debug.js
+668 silly gunzTarPerm modified mode [ 'debug.js', 420, 438 ]
+669 silly gunzTarPerm extractEntry browser.js
+670 silly gunzTarPerm modified mode [ 'browser.js', 420, 438 ]
+671 silly gunzTarPerm extractEntry Readme.md
+672 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+673 silly gunzTarPerm extractEntry component.json
+674 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+675 silly gunzTarPerm extractEntry Makefile
+676 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+677 silly gunzTarPerm extractEntry History.md
+678 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+679 silly gunzTarPerm extractEntry .jshintrc
+680 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+681 silly lockFile f8948a44-odules-ref-node-modules-bindings tar://C:\hubot\Butler\node_modules\ref\node_modules\bindings
+682 silly lockFile f8948a44-odules-ref-node-modules-bindings tar://C:\hubot\Butler\node_modules\ref\node_modules\bindings
+683 silly lockFile ff2e4a18-cache-bindings-1-2-1-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+684 silly lockFile ff2e4a18-cache-bindings-1-2-1-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+685 info preinstall bindings@1.2.1
+686 verbose readDependencies using package.json deps
+687 verbose readDependencies using package.json deps
+688 silly resolved []
+689 verbose about to build C:\hubot\Butler\node_modules\ref\node_modules\bindings
+690 info build C:\hubot\Butler\node_modules\ref\node_modules\bindings
+691 verbose linkStuff [ false,
+691 verbose linkStuff   false,
+691 verbose linkStuff   false,
+691 verbose linkStuff   'C:\\hubot\\Butler\\node_modules\\ref\\node_modules' ]
+692 info linkStuff bindings@1.2.1
+693 verbose linkBins bindings@1.2.1
+694 verbose linkMans bindings@1.2.1
+695 verbose rebuildBundles bindings@1.2.1
+696 info install bindings@1.2.1
+697 info postinstall bindings@1.2.1
+698 silly lockFile 9d722dd6-e-modules-ref-node-modules-debug tar://C:\hubot\Butler\node_modules\ref\node_modules\debug
+699 silly lockFile 9d722dd6-e-modules-ref-node-modules-debug tar://C:\hubot\Butler\node_modules\ref\node_modules\debug
+700 silly lockFile 6da48e44-pm-cache-debug-1-0-4-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\debug\1.0.4\package.tgz
+701 silly lockFile 6da48e44-pm-cache-debug-1-0-4-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\debug\1.0.4\package.tgz
+702 info preinstall debug@1.0.4
+703 verbose readDependencies using package.json deps
+704 verbose readDependencies using package.json deps
+705 silly lockFile 9e82f8a2-ode-modules-ref-node-modules-nan tar://C:\hubot\Butler\node_modules\ref\node_modules\nan
+706 silly lockFile 9e82f8a2-ode-modules-ref-node-modules-nan tar://C:\hubot\Butler\node_modules\ref\node_modules\nan
+707 silly lockFile 37bb905f--npm-cache-nan-1-2-0-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\nan\1.2.0\package.tgz
+708 silly lockFile 37bb905f--npm-cache-nan-1-2-0-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\nan\1.2.0\package.tgz
+709 info preinstall nan@1.2.0
+710 verbose readDependencies using package.json deps
+711 verbose readDependencies using package.json deps
+712 silly resolved []
+713 verbose about to build C:\hubot\Butler\node_modules\ref\node_modules\nan
+714 info build C:\hubot\Butler\node_modules\ref\node_modules\nan
+715 verbose linkStuff [ false,
+715 verbose linkStuff   false,
+715 verbose linkStuff   false,
+715 verbose linkStuff   'C:\\hubot\\Butler\\node_modules\\ref\\node_modules' ]
+716 info linkStuff nan@1.2.0
+717 verbose linkBins nan@1.2.0
+718 verbose linkMans nan@1.2.0
+719 verbose rebuildBundles nan@1.2.0
+720 info install nan@1.2.0
+721 info postinstall nan@1.2.0
+722 verbose cache add [ 'ms@0.6.2', null ]
+723 verbose cache add name=undefined spec="ms@0.6.2" args=["ms@0.6.2",null]
+724 verbose parsed url { protocol: null,
+724 verbose parsed url   slashes: null,
+724 verbose parsed url   auth: null,
+724 verbose parsed url   host: null,
+724 verbose parsed url   port: null,
+724 verbose parsed url   hostname: null,
+724 verbose parsed url   hash: null,
+724 verbose parsed url   search: null,
+724 verbose parsed url   query: null,
+724 verbose parsed url   pathname: 'ms@0.6.2',
+724 verbose parsed url   path: 'ms@0.6.2',
+724 verbose parsed url   href: 'ms@0.6.2' }
+725 verbose cache add name="ms" spec="0.6.2" args=["ms","0.6.2"]
+726 verbose parsed url { protocol: null,
+726 verbose parsed url   slashes: null,
+726 verbose parsed url   auth: null,
+726 verbose parsed url   host: null,
+726 verbose parsed url   port: null,
+726 verbose parsed url   hostname: null,
+726 verbose parsed url   hash: null,
+726 verbose parsed url   search: null,
+726 verbose parsed url   query: null,
+726 verbose parsed url   pathname: '0.6.2',
+726 verbose parsed url   path: '0.6.2',
+726 verbose parsed url   href: '0.6.2' }
+727 verbose addNamed [ 'ms', '0.6.2' ]
+728 verbose addNamed [ '0.6.2', '0.6.2' ]
+729 silly lockFile 549cc243-ms-0-6-2 ms@0.6.2
+730 verbose lock ms@0.6.2 C:\Users\Jaglag\AppData\Roaming\npm-cache\549cc243-ms-0-6-2.lock
+731 verbose request where is /ms
+732 verbose request registry https://registry.npmjs.org/
+733 verbose url raw /ms
+734 verbose url resolving [ 'https://registry.npmjs.org/', './ms' ]
+735 verbose url resolved https://registry.npmjs.org/ms
+736 verbose request where is https://registry.npmjs.org/ms
+737 info trying registry request attempt 1 at 10:13:22
+738 verbose etag "DRQK83FN5JEKTMC2Y495ICOH"
+739 http GET https://registry.npmjs.org/ms
+740 http 304 https://registry.npmjs.org/nan
+741 silly registry.get cb [ 304,
+741 silly registry.get   { date: 'Sun, 24 Aug 2014 08:13:13 GMT',
+741 silly registry.get     server: 'Apache',
+741 silly registry.get     via: '1.1 varnish',
+741 silly registry.get     'last-modified': 'Sun, 24 Aug 2014 08:12:51 GMT',
+741 silly registry.get     'cache-control': 'max-age=60',
+741 silly registry.get     etag: '"1V4L4UHAMWZFH6I69YC8D2UBS"',
+741 silly registry.get     'x-served-by': 'cache-fra1234-FRA',
+741 silly registry.get     'x-cache': 'HIT',
+741 silly registry.get     'x-cache-hits': '2',
+741 silly registry.get     'x-timer': 'S1408867993.824446,VS0,VE0',
+741 silly registry.get     vary: 'Accept',
+741 silly registry.get     'content-length': '0',
+741 silly registry.get     'keep-alive': 'timeout=10, max=50',
+741 silly registry.get     connection: 'Keep-Alive' } ]
+742 verbose etag https://registry.npmjs.org/nan from cache
+743 silly addNameRange number 2 { name: 'nan', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+744 silly addNameRange versions [ 'nan',
+744 silly addNameRange   [ '0.3.0-wip',
+744 silly addNameRange     '0.3.0-wip2',
+744 silly addNameRange     '0.3.0',
+744 silly addNameRange     '0.3.1',
+744 silly addNameRange     '0.3.2',
+744 silly addNameRange     '0.4.0',
+744 silly addNameRange     '0.4.1',
+744 silly addNameRange     '0.4.2',
+744 silly addNameRange     '0.4.3',
+744 silly addNameRange     '0.4.4',
+744 silly addNameRange     '0.5.0',
+744 silly addNameRange     '0.5.1',
+744 silly addNameRange     '0.5.2',
+744 silly addNameRange     '0.6.0',
+744 silly addNameRange     '0.7.0',
+744 silly addNameRange     '0.7.1',
+744 silly addNameRange     '0.8.0',
+744 silly addNameRange     '1.0.0',
+744 silly addNameRange     '1.1.0',
+744 silly addNameRange     '1.1.1',
+744 silly addNameRange     '1.1.2',
+744 silly addNameRange     '1.2.0',
+744 silly addNameRange     '1.3.0' ] ]
+745 verbose addNamed [ 'nan', '1.0.0' ]
+746 verbose addNamed [ '1.0.0', '1.0.0' ]
+747 silly lockFile cc7fa090-nan-1-0-0 nan@1.0.0
+748 verbose lock nan@1.0.0 C:\Users\Jaglag\AppData\Roaming\npm-cache\cc7fa090-nan-1-0-0.lock
+749 silly lockFile cc7fa090-nan-1-0-0 nan@1.0.0
+750 silly lockFile cc7fa090-nan-1-0-0 nan@1.0.0
+751 silly lockFile 66a60b03-nan-1-0-0 nan@~1.0.0
+752 silly lockFile 66a60b03-nan-1-0-0 nan@~1.0.0
+753 silly resolved [ { name: 'nan',
+753 silly resolved     version: '1.0.0',
+753 silly resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+753 silly resolved     main: 'include_dirs.js',
+753 silly resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+753 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+753 silly resolved     license: 'MIT',
+753 silly resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+753 silly resolved     homepage: 'https://github.com/rvagg/nan',
+753 silly resolved     _id: 'nan@1.0.0',
+753 silly resolved     dist:
+753 silly resolved      { shasum: 'ae24f8850818d662fcab5acf7f3b95bfaa2ccf38',
+753 silly resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.0.0.tgz' },
+753 silly resolved     _from: 'nan@~1.0.0',
+753 silly resolved     _npmVersion: '1.4.3',
+753 silly resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+753 silly resolved     maintainers: [ [Object] ],
+753 silly resolved     directories: {},
+753 silly resolved     _shasum: 'ae24f8850818d662fcab5acf7f3b95bfaa2ccf38',
+753 silly resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.0.0.tgz',
+753 silly resolved     readme: 'ERROR: No README data found!' } ]
+754 info install nan@1.0.0 into C:\hubot\Butler\node_modules\msgpack
+755 info installOne nan@1.0.0
+756 verbose node_modules\msgpack\node_modules\nan unbuild
+757 verbose tar unpack C:\Users\Jaglag\AppData\Roaming\npm-cache\nan\1.0.0\package.tgz
+758 silly lockFile 8e8433e9-modules-msgpack-node-modules-nan tar://C:\hubot\Butler\node_modules\msgpack\node_modules\nan
+759 verbose lock tar://C:\hubot\Butler\node_modules\msgpack\node_modules\nan C:\Users\Jaglag\AppData\Roaming\npm-cache\8e8433e9-modules-msgpack-node-modules-nan.lock
+760 silly lockFile 22d40df0--npm-cache-nan-1-0-0-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\nan\1.0.0\package.tgz
+761 verbose lock tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\nan\1.0.0\package.tgz C:\Users\Jaglag\AppData\Roaming\npm-cache\22d40df0--npm-cache-nan-1-0-0-package-tgz.lock
+762 silly gunzTarPerm modes [ '777', '666' ]
+763 silly gunzTarPerm extractEntry package.json
+764 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+765 silly gunzTarPerm extractEntry README.md
+766 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+767 silly gunzTarPerm extractEntry LICENSE
+768 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+769 silly gunzTarPerm extractEntry include_dirs.js
+770 silly gunzTarPerm modified mode [ 'include_dirs.js', 420, 438 ]
+771 silly gunzTarPerm extractEntry .dntrc
+772 silly gunzTarPerm modified mode [ '.dntrc', 420, 438 ]
+773 silly gunzTarPerm extractEntry build/config.gypi
+774 silly gunzTarPerm modified mode [ 'build/config.gypi', 420, 438 ]
+775 silly gunzTarPerm extractEntry nan.h
+776 silly gunzTarPerm modified mode [ 'nan.h', 420, 438 ]
+777 silly lockFile 8e8433e9-modules-msgpack-node-modules-nan tar://C:\hubot\Butler\node_modules\msgpack\node_modules\nan
+778 silly lockFile 8e8433e9-modules-msgpack-node-modules-nan tar://C:\hubot\Butler\node_modules\msgpack\node_modules\nan
+779 silly lockFile 22d40df0--npm-cache-nan-1-0-0-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\nan\1.0.0\package.tgz
+780 silly lockFile 22d40df0--npm-cache-nan-1-0-0-package-tgz tar://C:\Users\Jaglag\AppData\Roaming\npm-cache\nan\1.0.0\package.tgz
+781 info preinstall nan@1.0.0
+782 verbose readDependencies using package.json deps
+783 verbose readDependencies using package.json deps
+784 silly resolved []
+785 verbose about to build C:\hubot\Butler\node_modules\msgpack\node_modules\nan
+786 info build C:\hubot\Butler\node_modules\msgpack\node_modules\nan
+787 verbose linkStuff [ false,
+787 verbose linkStuff   false,
+787 verbose linkStuff   false,
+787 verbose linkStuff   'C:\\hubot\\Butler\\node_modules\\msgpack\\node_modules' ]
+788 info linkStuff nan@1.0.0
+789 verbose linkBins nan@1.0.0
+790 verbose linkMans nan@1.0.0
+791 verbose rebuildBundles nan@1.0.0
+792 info install nan@1.0.0
+793 info postinstall nan@1.0.0
+794 verbose about to build C:\hubot\Butler\node_modules\msgpack
+795 info build C:\hubot\Butler\node_modules\msgpack
+796 verbose linkStuff [ false, false, false, 'C:\\hubot\\Butler\\node_modules' ]
+797 info linkStuff msgpack@0.2.4
+798 verbose linkBins msgpack@0.2.4
+799 verbose link bins [ { json2msgpack: './bin/json2msgpack',
+799 verbose link bins     msgpack2json: './bin/msgpack2json' },
+799 verbose link bins   'C:\\hubot\\Butler\\node_modules\\.bin',
+799 verbose link bins   false ]
+800 verbose linkMans msgpack@0.2.4
+801 verbose rebuildBundles msgpack@0.2.4
+802 verbose rebuildBundles [ 'nan' ]
+803 info install msgpack@0.2.4
+804 verbose unsafe-perm in lifecycle true
+805 info msgpack@0.2.4 Failed to exec install script
+806 verbose node_modules\msgpack unbuild
+807 info preuninstall msgpack@0.2.4
+808 info uninstall msgpack@0.2.4
+809 verbose true,C:\hubot\Butler\node_modules,C:\hubot\Butler\node_modules unbuild msgpack@0.2.4
+810 verbose C:\hubot\Butler\node_modules\.bin,[object Object] binRoot
+811 info postuninstall msgpack@0.2.4
+812 error msgpack@0.2.4 install: `node-gyp rebuild`
+812 error Exit status 1
+813 error Failed at the msgpack@0.2.4 install script.
+813 error This is most likely a problem with the msgpack package,
+813 error not with npm itself.
+813 error Tell the author that this fails on your system:
+813 error     node-gyp rebuild
+813 error You can get their info via:
+813 error     npm owner ls msgpack
+813 error There is likely additional logging output above.
+814 error System Windows_NT 6.2.9200
+815 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+816 error cwd C:\hubot\Butler
+817 error node -v v0.10.30
+818 error npm -v 1.4.21
+819 error code ELIFECYCLE
+820 verbose exit [ 1, true ]

@@ -36,7 +36,7 @@ module.exports = (robot) ->
 	start = moment()
 
 	robot.router.get '/', (req, res) ->
-		res.send "I am <a href=\"https://github.com/MrSaints/ClaudeBot\">Claude</a>, the bot and I have been sentient since #{start.fromNow()}."
+		res.send "I am <a href=\"https://github.com/Jaglag/Butler\">Butlerz</a>, the bot and I have been sentient since #{start.fromNow()}."
 
 	# Restrict commands
 	if process.env.HUBOT_AUTH_ADMIN?
