@@ -22,6 +22,7 @@
 
 moment = require 'moment'
 adminOnly = [
+	'repeat'
 	'brain save'
 	'die'
 	'reload all scripts'
