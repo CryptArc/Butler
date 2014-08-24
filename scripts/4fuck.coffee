@@ -21,7 +21,7 @@ Select      = require( "soupselect" ).select
 HTMLParser  = require "htmlparser"
 
 module.exports = (robot)->
-  robot.respond /4fuck /i, (message)->
+  robot.respond /4fuckr/i, (message)->
     send_meme message, false, (title, src)->
       message.send title, src
 
