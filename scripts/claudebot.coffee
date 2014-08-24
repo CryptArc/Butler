@@ -60,3 +60,7 @@ module.exports = (robot) ->
 
 		delete robot.brain.data[key]
 		msg.reply "\"#{key}\" and all of its contents have been wiped from the brain."
+
+	robot.respond /help/i, (msg) ->
+	        msg.message.done = true
+	        msg.reply "Full list of commands available at http://goo.gl/HkrseR"
