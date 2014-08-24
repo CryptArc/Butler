@@ -10,6 +10,7 @@
 #
 # Commands:
 #   hubot delete <key> - Removes <key> and all of its content from the local brain / persistence
+#   hubot math <question> - query Wolfram Alpha
 #
 # Author:
 #   MrSaints
