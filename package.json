@@ -39,7 +39,8 @@
     "yelp": "^0.1.1",
 	"moment": "^2.7.0",
 	"ref": "^0.3.2",
-	"msgpack": "^0.2.3"
+	"msgpack": "^0.2.3",
+	"wolfram": "^0.2.2"
   },
   "engines": {
     "node": ">= 0.8.x",
