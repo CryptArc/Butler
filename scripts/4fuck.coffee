@@ -22,8 +22,8 @@ HTMLParser  = require "htmlparser"
 
 module.exports = (robot)->
   robot.respond /4fuckr( me)?/i, (message)->
-    send_meme message, false, (title)->
-      message.send title
+    send_meme message, false, (title, src)->
+      message.send title, src
 
 send_meme = (message, location, response_handler)->
   meme_domain = "http://4fuckr.com"
