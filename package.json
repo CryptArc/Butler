@@ -29,6 +29,7 @@
     "hubot-cool-ascii-faces": "^1.0.9",
     "hubot-darksky": "^1.0.1",
     "hubot-ector": "^1.2.1",
+    "hubot-heroku-keepalive": "0.0.4",
     "hubot-irc": "^0.2.7",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "install": "^0.1.7",
