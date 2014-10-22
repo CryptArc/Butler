@@ -34,6 +34,6 @@ module.exports = (robot) ->
 
                 data = JSON.parse body
                 if msg.match[1]?
-                    msg.reply _imageURL msg.random(data.items).image
+                    msg.send _imageURL msg.random(data.items).image
                 else
-                    msg.reply _imageURL data.items[0].image
+                    msg.send _imageURL data.items[0].image
