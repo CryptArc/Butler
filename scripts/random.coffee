@@ -26,5 +26,7 @@ module.exports = (robot) ->
       low  = parseInt(msg.match[2])
       high = parseInt(msg.match[3])
 
-    rand = Math.floor(Math.random() * (high - low + 1)) + low
-    msg.reply "rolled a #{rand} #{rand} #{rand} #{rand} #{rand} #{rand} of #{high}"
+    rand = (low, high) ->
+        Math.floor(Math.random() * (high - low + 1)) + low
+
+    msg.reply "rolled a #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} of #{high}"
