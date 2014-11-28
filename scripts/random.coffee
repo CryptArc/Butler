@@ -27,4 +27,4 @@ module.exports = (robot) ->
       high = parseInt(msg.match[3])
 
     rand = Math.floor(Math.random() * (high - low + 1)) + low
-	msg.reply "notice guuchan !bet #{rand} #{rand} #{rand} #{rand} #{rand} #{rand}"
+	msg.reply "notice guuchan bet #{rand} #{rand} #{rand} #{rand} #{rand} #{rand}"
