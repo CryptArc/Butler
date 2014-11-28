@@ -1,5 +1,5 @@
 # Description:
-#   Roll a dice!
+#   Get 6 Random Numbers for Betting on #Vizon
 #
 # Dependencies:
 #   None
@@ -8,12 +8,12 @@
 #   None
 #
 # Commands:
-#   hubot roll - Generates a random number between 1 and 100 inclusive
+#   hubot roll - Generates 6 random number between 1 and 29 inclusive
 #   hubot roll <num> - Generates a random number between 1 and <num> inclusive
 #   hubot roll <num>-<num2> - Generates a random number between <num> and <num2> inclusive
 #
 # Author:
-#   jkongie
+#   Jaglag
 
 module.exports = (robot) ->
   robot.respond /(roll)\s?(\d+)?-?(\d+)?/i, (msg) ->
