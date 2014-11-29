@@ -65,4 +65,4 @@ module.exports = (robot) ->
 
 	robot.respond /help/i, (msg) ->
 	        msg.message.done = true
-	        msg.reply "Full list of commands available at http://goo.gl/HkrseR"
+	        msg.reply "Full list of commands available at http://goo.gl/2n0e5M"
