@@ -29,4 +29,4 @@ module.exports = (robot) ->
     rand = (low, high) ->
         Math.floor(Math.random() * (high - low + 1)) + low
 
-    msg.sendNotice "/notice guuchan !bet #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)}"
+    msg.sendnotice "/notice guuchan !bet #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)}"
