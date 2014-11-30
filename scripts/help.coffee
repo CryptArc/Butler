@@ -1,5 +1,5 @@
 # Description:
-#   Generates help commands for Hubot.
+#   Generates help commands for Hubot...
 #
 # Commands:
 #   hubot help - Displays all of the help commands that Hubot knows about.
