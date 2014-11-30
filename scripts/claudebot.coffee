@@ -26,6 +26,7 @@ adminOnly = [
 	'repeat'
 	'brain save'
 	'die'
+	'adme'
 	'reload all scripts'
 	'show storage'
 	'show users'
