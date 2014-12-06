@@ -26,7 +26,7 @@ module.exports = (robot) ->
         "http://img.pr0gramm.com/" + image
 
     robot.respond /pr0gramm( random)?/i, (msg) ->
-        msg.http("http://pr0gramm.com/api/items/get?flags=5")
+        msg.http("http://pr0gramm.com/api/items/get?flags=6")
             .get() (err, res, body) ->
                 if err
                     msg.reply "An error occurred while attempting to process your request. Please try again later."
