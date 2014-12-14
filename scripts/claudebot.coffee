@@ -32,6 +32,7 @@ adminOnly = [
 	'show users'
 	'fake event'
 	'wipe'
+	'bomb'
 ]
 
 module.exports = (robot) ->
