@@ -22,8 +22,7 @@ module.exports = (robot) ->
     ]
 
     msg.send table
-    robot.tweet table
-
+   
     setTimeout () ->
       msg.emote "has left the building"
 
