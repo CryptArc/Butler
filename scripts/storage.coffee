@@ -11,7 +11,8 @@ Util = require "util"
 module.exports = (robot) ->
   robot.respond /show storage$/i, (msg) ->
     output = Util.inspect(robot.brain.data, false, 4)
-    msg.send output
+
+    robot.dpaste output, msg
 
   robot.respond /show users$/i, (msg) ->
     response = ""
@@ -21,5 +22,4 @@ module.exports = (robot) ->
       response += " <#{user.email_address}>" if user.email_address
       response += "\n"
 
-    msg.send response
-
+    robot.dpaste response, msg

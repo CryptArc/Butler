@@ -9,7 +9,7 @@
 #   None
 #
 # Commands:
-#   elvis movie me <title> - look up a movie on IMDB
+#   Hubot movie me <title> - look up a movie on IMDB
 #
 # Author:
 #   gpspake
