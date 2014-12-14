@@ -24,7 +24,7 @@
     "clark": "0.0.6",
     "cleverbot-node": "^0.1.8",
     "htmlparser": "^1.7.7",
-    "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot": "2.10.0",
     "hubot-alpha": "^0.1.1",
     "hubot-chronos": "git://github.com/evansolomon/hubot-chronos.git",
     "hubot-darksky": "^1.0.1",
