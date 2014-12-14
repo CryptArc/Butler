@@ -21,6 +21,7 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
+    "cheerio": "^0.18.0",
     "clark": "0.0.6",
     "cleverbot-node": "^0.1.8",
     "htmlparser": "^1.7.7",
@@ -42,6 +43,7 @@
     "optparse": "^1.0.5",
     "querystring": "^0.2.0",
     "ref": "^0.3.2",
+    "request": "^2.51.0",
     "soupselect": "^0.2.0",
     "underscore": "^1.7.0",
     "wolfram": "0.2.2",
