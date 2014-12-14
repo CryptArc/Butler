@@ -1,5 +1,5 @@
 # Description:
-#   ClaudeBot's Utility Belt
+#   Butlerz Utility Belt
 #	For everything else that don't belong...
 #
 # Dependencies:
