@@ -1,1 +1,11 @@
-["hubot-chronos", "hubot-alpha", "hubot-darksky", "hubot-heroku-keepalive", "hubot-googl", "hubot-mail", "hubot-yolo", "hubot-doge" ]
+[
+"hubot-chronos", 
+ "hubot-alpha", 
+ "hubot-darksky", 
+ "hubot-heroku-keepalive", 
+ "hubot-googl", 
+ "hubot-mail", 
+ "hubot-yolo", 
+ "hubot-doge",
+ "hubot-ab" 
+ ]
