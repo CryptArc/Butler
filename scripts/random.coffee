@@ -29,4 +29,4 @@ module.exports = (robot) ->
     rand = (low, high) ->
         Math.floor(Math.random() * (high - low + 1)) + low
 
-    msg.emote "/notice guuchan !bet #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)}"
+    robot.adapter.notice {user: msg.message.user}, "/notice guuchan !bet #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)} #{rand(low, high)}"
