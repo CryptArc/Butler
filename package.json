@@ -38,7 +38,7 @@
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-yolo": "^1.0.7",
     "install": "^0.1.7",
-    "moment": "^2.7.0",
+    "moment": "^2.8.3",
     "msgpack": "^0.2.3",
     "npm": "^1.4.23",
     "optparse": "^1.0.5",
