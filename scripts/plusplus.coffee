@@ -13,7 +13,7 @@
 #   hubot score <name>
 #   hubot top <amount>
 #   hubot bottom <amount>
-#   GET http://<url>/hubot/scores[?name=<name>][&direction=<top|botton>][&limit=<10>]
+#   
 #
 # Author:
 #   ajacksified
