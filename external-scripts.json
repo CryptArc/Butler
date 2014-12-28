@@ -8,6 +8,5 @@
  "hubot-yolo", 
  "hubot-doge",
  "hubot-ab",
- "hubot-bitcoin",
- "hubot-wolfram"
- ]
+ "hubot-bitcoin"
+  ]
