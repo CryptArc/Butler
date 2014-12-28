@@ -27,7 +27,7 @@ module.exports = (robot) ->
       deets = JSON.parse body
 
       if deets.Title
-        output = "#{deets.Title}, #{deets.Year}. #{deets.Plot}, #{deets.Poster}"
+        output = "#{deets.Title}, #{deets.Year}. Plot: #{deets.Plot}, Poster: #{deets.Poster}, Imdb id:"
         if deets.imdbID?
           output += " http://www.imdb.com/title/#{deets.imdbID}"
       else
