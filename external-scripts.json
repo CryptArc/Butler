@@ -7,5 +7,7 @@
  "hubot-mail", 
  "hubot-yolo", 
  "hubot-doge",
- "hubot-ab" 
+ "hubot-ab",
+ "hubot-bitcoin",
+ "hubot-wolfram"
  ]
