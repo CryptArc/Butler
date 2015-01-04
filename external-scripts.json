@@ -8,5 +8,6 @@
  "hubot-yolo", 
  "hubot-doge",
  "hubot-ab",
- "hubot-bitcoin"
+ "hubot-bitcoin",
+ "hubot-darts": "1.0.x"
   ]
