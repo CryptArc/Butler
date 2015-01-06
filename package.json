@@ -35,6 +35,7 @@
     "hubot-darts": "^1.0.1",
     "hubot-doge": "0.0.1",
     "hubot-googl": "^1.0.0",
+	"hubot-rss-reader": "0.5.4",
     "hubot-heroku-keepalive": "0.0.4",
     "hubot-irc": "^0.2.7",
     "hubot-mail": "^1.0.0",
