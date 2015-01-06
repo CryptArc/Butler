@@ -29,7 +29,7 @@
     "hubot": "^2.10.0",
     "hubot-ab": "^1.0.1",
     "hubot-alpha": "^0.1.1",
-    "hubot-bitcoin": "^1.0.0",
+    "hubot-bitcoin": "^1.0.1",
     "hubot-chronos": "git://github.com/evansolomon/hubot-chronos.git",
     "hubot-darksky": "^1.0.1",
     "hubot-darts": "^1.0.1",
