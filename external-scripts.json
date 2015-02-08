@@ -11,5 +11,6 @@
  "hubot-bitcoin",
  "hubot-darts",
  "hubot-rss-reader",
- "hubot-subreddit-linker"
+ "hubot-subreddit-linker",
+ "hubot-twitch"
   ]
