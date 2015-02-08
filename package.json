@@ -1,6 +1,6 @@
 {
   "name": "hosted-hubot",
-  "version": "2.8.0",
+  "version": "2.11.0",
   "private": true,
   "author": "GitHub Inc.",
   "keywords": [
@@ -43,7 +43,8 @@
     "hubot-scripts": "2.5.16",
     "hubot-subreddit-linker": "^1.1.0",
     "hubot-twitch": "^1.0.1",
-    "hubot-yolo": "^1.0.7",
+    "scoped-http-client": "0.10.0",
+	"hubot-yolo": "^1.0.7",
     "install": "^0.1.7",
     "lodash": "^3.1.0",
     "moment": "^2.8.3",
@@ -57,7 +58,10 @@
     "underscore": "^1.7.0",
     "wolfram": "0.3.0",
     "xml2js": "^0.4.4",
-    "yelp": "^0.1.1"
+    "yelp": "^0.1.1",
+	"log": "1.4.0",
+    "express": "3.18.1",
+    "readline-history": "~1.2.0"
   },
   "engines": {
     "node": ">= 0.8.x",
