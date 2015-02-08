@@ -45,6 +45,7 @@
     "hubot-scripts": "2.5.16",
     "hubot-subreddit-linker": "^1.1.0",
     "hubot-twitch": "^1.0.1",
+    "hubot-wolfram": "^1.0.7",
     "hubot-yolo": "^1.0.7",
     "install": "^0.1.7",
     "lodash": "^3.1.0",
