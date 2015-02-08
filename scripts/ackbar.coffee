@@ -8,13 +8,13 @@
 #   None
 #
 # Commands:
-#   it's a trap - Display an Admiral Ackbar piece of wonder
+#   Nuttenroger - Display his aids
 #
 # Author:
-#   brilliantfantastic
+#   Jaglag
 
 ackbars = [
-  "http://www.pinkbike.com/video/32400/"
+  "RogerSterling: http://www.pinkbike.com/video/32400/"
 
 ]
 
