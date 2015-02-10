@@ -14,7 +14,7 @@
 #   Jaglag
 
 ackbars = [
-  "RogerSterling: http://www.pinkbike.com/video/32400/"
+  " http://www.pinkbike.com/video/32400/"
 
 ]
 
