@@ -13,5 +13,6 @@
  "hubot-rss-reader",
  "hubot-subreddit-linker",
  "hubot-twitch",
- "hubot-wolfram"
+ "hubot-wolfram",
+ "hubot-steam"
    ]
