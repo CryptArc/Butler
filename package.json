@@ -32,7 +32,6 @@
     "hubot-ab": "1.1.1",
     "hubot-alpha": "0.1.1",
     "hubot-bitcoin": "1.0.3",
-    "hubot-chronos": "git://github.com/evansolomon/hubot-chronos.git",
     "hubot-darksky": "1.0.2",
     "hubot-darts": "1.0.1",
     "hubot-doge": "0.0.1",
@@ -67,7 +66,7 @@
     "yelp": "0.1.1"
   },
   "engines": {
-    "node": ">= 0.8.x",
-    "npm": ">= 1.1.x"
+    "node": "= 0.10.x",
+    "npm": "= 2.5.1"
   }
 }

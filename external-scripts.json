@@ -1,5 +1,4 @@
 [
-"hubot-chronos", 
  "hubot-alpha", 
  "hubot-darksky", 
  "hubot-heroku-keepalive", 
@@ -14,7 +13,8 @@
  "hubot-subreddit-linker",
  "hubot-twitch",
  "hubot-wolfram",
- "hubot-steam-webapi"
+ "hubot-steam-webapi",
+ "hubot-spotify-search"
     ]
 	
 	
