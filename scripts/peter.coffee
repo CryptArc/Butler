@@ -18,7 +18,7 @@ haters = [
 , "Hey derpeter15 Deine Mutter ist so fett, ihre Blutgruppe ist Nutella!"
 , "Hey derpeter15 Deine Mutter hat 'nen neuen Job bei Lidl. Sie sitzt im Leergutautomaten und säuft die Reste aus."
 , "Hey derpeter15 Deine Mutter hat Homezone auf der Reeperbahn."
-, "Hey derpeter15 Deine Mutter steht nackt neben KiK und schreit: "Ich bin billiger!"
+, "Hey derpeter15 Deine Mutter steht nackt neben KiK unIch bin billiger!"
 , "Hey derpeter15 Deine Mutter arbeitet auf einem Fischkutter, als Geruch!"
 , "Hey derpeter15 Deine Mutter klaut Paybackkarten bei Galeria."
 , "Hey derpeter15 Deine Mutter macht hinter Lidl Armdrücken um ne Pfandflasche."
