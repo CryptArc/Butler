@@ -71,7 +71,7 @@ haters = [
 , "Hey derpeter15 Deine Mutter ist so versoffen, du wurdest in der Ausnüchterungszelle geboren."
 , "Hey derpeter15 Deine Mutter kippt Actimel über deinen PC um ihn vor Viren zu schützen!"
 , "Hey derpeter15 Deine Mutter sitzt in U-Haft, weil sie besoffen Autoskooter gefahren ist. Mit einem Bagger!"
-, "Hey derpeter15 Deine Mutter ist Wassermelonenjoghurt mit ganzen Früchten."
+
  ]
 hatin = (msg) ->
   msg.send msg.random haters
