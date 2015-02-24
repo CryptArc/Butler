@@ -4,19 +4,15 @@
  "hubot-heroku-keepalive", 
  "hubot-googl", 
  "hubot-mail", 
- "hubot-yolo", 
- "hubot-doge",
- "hubot-ab",
+ "hubot-yolo",
  "hubot-bitcoin",
  "hubot-darts",
- "hubot-rss-reader",
  "hubot-subreddit-linker",
  "hubot-twitch",
  "hubot-wolfram",
  "hubot-steam-webapi",
  "hubot-spotify-search",
- "hubot-codinglove",
- "hubot-old"
+ "hubot-codinglove"
     ]
 	
 	

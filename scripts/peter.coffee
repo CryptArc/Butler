@@ -1,5 +1,5 @@
 # Description:
-#   Display a random "haters gonna hate" image
+#   Display a random "peter" 
 #
 # Dependencies:
 #   None
@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   Peter - Returns a random Peter
+#   Hubot Peter - Returns a random Peter
 #
 # Author:
 #   Jaglag
@@ -79,5 +79,5 @@ hatin = (msg) ->
 module.exports = (robot) ->
   robot.respond /peter/i, (msg) ->
     hatin msg
-  robot.hear /halts maul peter/i, (msg) ->
+  robot.hear /halts maul derpeter15/i, (msg) ->
     hatin msg

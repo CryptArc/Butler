@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   Nuttenroger - Display his aids
+#  Hubot Nuttenroger - Display his aids
 #
 # Author:
 #   Jaglag
