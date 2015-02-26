@@ -102,9 +102,9 @@ haters = [
 , "Deine Mutter ist so fett, sie wurde in SeaWorld getauft."
 , "Wie kriegt man deine Mudda ins Haus? Tür ein fetten und Keks rein legen."
 , "Deine Mudda findet am Schrottplatz einen Spiegel und sagt: so ein Bild hätte ich auch weggeworfen"
-, "Deine Mutter ist ein Justin Bieber Fan "
+, "Deine Mutter ist ein Justin Bieber Fan"
 , "Deine Mudda wurde öfter geknallt als die Tür vom Arbeitsamt"
-, "Was rollte mit 80 km/h den Berg hinunter. Deine Mutter mit einem Mc-Donalds-Gutschein."
+, "Was rollte mit 80 km/h den Berg hinunter Deine Mutter mit einem Mc-Donalds-Gutschein."
 , "Deine Mudda stöhnt beim Würstchen kochen"
 , "Deine Mudda hat Ohren wie ein Luchs zwar nicht so gut aber genau so behaart"
 , "Wenn deine Mutter bei Skype online geht stellt sich selbst der Echosoundtest Service offline "
@@ -137,17 +137,17 @@ haters = [
 , "Deine Mutter will bei Apple Obst kaufen."
 , "Deine Mudda wurde zum Hässlichkeitswettbewerb eingeladen aber dann sofort wieder ausgeladen. Begründung: Profis verboten"
 , "Deine Mudda sammelt hässliche Kinder...."
-, "Wenn deine Mudda sich auf den Bauch legt kriegt sie Höhenangst !"
+, "Wenn deine Mudda sich auf den Bauch legt kriegt sie Höhenangst"
 , "Deine Mutter ist so krass fett, wenn die Welt unter geht, können die Menschen auf ihr weiter leben."
 , "Deine Mutter wirft Spaghetti an die Wand denkt sie wäre Spiderman."
 , "Deine Mudder ist so fett, ich wollte mich umdrehen aber da war sie auch."
 , "Deine Mutter hat Gürtelgröße Äquator"
 , "Deine Mudda ist so fett, die sitzt im Kino einfach neben Jedem!!!"
 , "Deine Mutter arbeitet als Seemann!"
-, "Dein Vater lenkt den Busfahrer ab, damit deine Mutter Hinten umsonst reinkommt! "
-, "Deine Mama is so fett, sie muss ihre Hosen auf der Straße bügeln "
+, "Dein Vater lenkt den Busfahrer ab, damit deine Mutter Hinten umsonst reinkommt!"
+, "Deine Mama is so fett, sie muss ihre Hosen auf der Straße bügeln"
 , "Deine Mudda is so fett, dass man wenn sie am Fernseher vorbeiläuft alle drei Teile von Herr der Ringe verpasst."
-, "Deine Mudder steht um 7:55 Uhr vor Aldi und singt the Final Countdown "
+, "Deine Mudder steht um 7:55 Uhr vor Aldi und singt the Final Countdown"
 , "Deine Mutter klaut bei Kik und fragt nach dem Kassenbon."
 , "Deine Mutter klaut kostenloses Brot	beim Bäcker und wird dabei erwischt"
 , "Deine Mudda schwitzt beim Scheißen..."
@@ -176,11 +176,11 @@ haters = [
 , "Deine Mutter ist wie ein Edding, fett, blau und stinkt nach Alkohol."
 , "Deine Mutter ist so dumm, die verlangt Hartz IV bei Monopoly"
 , "Deine Mutta belt, wenn's klingelt"
-, "Deine Mudda spielt den riesigen Scheißhaufen bei Jurasic "
+, "Deine Mudda spielt den riesigen Scheißhaufen bei Jurasic"
 , "Deine Mutter scheißt nachts in fremde gärten"
 , "Deine Mutta ist so fett, man braucht WinRar um Sie zu entpacken"
 , "Deine Mudda	ist so hässlich, sie bringt das Happy Meal zum weinen"
-, "Google Earth hat angerufen - Deine Mutter ist weg "
+, "Google Earth hat angerufen - Deine Mutter ist weg"
 , "Lieblingssong deiner Mama: Ach wie gut, dass niemand weiß, dass ich in fremde Gärten scheiß"
 , "Deine Mutta ist so dumm, Sie wirft Brot ins Kloh, um die WC-Ente zu füttern"
 , "Deine Mutte hat so lange Arschhaare, dass Sie beim Toilette-Abspühlen mit runtergzogen wird."
@@ -194,7 +194,7 @@ haters = [
 ]
 
 hatin = (msg) ->
-  msg.send "Hey derpeter15 " + msg.random haters
+  msg.send "Hey derpeter15" + msg.random haters
 
 module.exports = (robot) ->
   robot.respond /peter/i, (msg) ->
