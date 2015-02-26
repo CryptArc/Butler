@@ -175,7 +175,7 @@ haters = [
 , "Deine Mudda ist die Stärkste im Knast"
 , "Deine Mutter ist wie ein Edding, fett, blau und stinkt nach Alkohol."
 , "Deine Mutter ist so dumm, die verlangt Hartz IV bei Monopoly"
-, "Deine Mutta belt, wenn's klingelt"
+, "Deine Mutta bellt wenns klingelt"
 , "Deine Mudda spielt den riesigen Scheißhaufen bei Jurasic"
 , "Deine Mutter scheißt nachts in fremde gärten"
 , "Deine Mutta ist so fett, man braucht WinRar um Sie zu entpacken"
@@ -194,7 +194,7 @@ haters = [
 ]
 
 hatin = (msg) ->
-  msg.send "Hey derpeter15" + msg.random haters
+  msg.send "Hey derpeter15 " + msg.random haters
 
 module.exports = (robot) ->
   robot.respond /peter/i, (msg) ->
