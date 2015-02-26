@@ -194,7 +194,7 @@ haters = [
 ]
 
 hatin = (msg) ->
-  msg.send "Hey derpeter15 " + msg.random haters
+  msg.send "Hey derpeter15" + msg.random haters
 
 module.exports = (robot) ->
   robot.respond /peter/i, (msg) ->
