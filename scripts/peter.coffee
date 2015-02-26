@@ -86,7 +86,6 @@ haters = [
 , "Deine Mutter arbeitet bei Dixiklo also Gestank"
 , "Deine Mudda schminkt sich mit Edding"
 , "Deine Mutta ist so fett, sie braucht beim Wiegen eine Lastenwage"
-, "Deine Mudda bellt, wenns an der Tür klingelt."
 , "Deine Mudda ist so dumm, sie leert Actimel über den Computer damit er gegen Viren geschützt ist."
 , "Der Tank ist zu klein um deine Mudda zu umrunden"
 , "Deine Mudda stinkt nach Fusspilz."
