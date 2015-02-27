@@ -154,7 +154,7 @@ haters = [
 , "Deine Mudda arbeitet bei Nordsee --- als Gestank"
 , "Deine Mutter zerreist Telefonbücher bei Wetten dass!"
 , "Deine Mutter is so hässlich, dein Vater nimmt sie mit auf die Arbeit damit er ihr kein Abschiedskuss geben muss"
-, "Deine Mudda klaut den Pennern auf dem Bahnhof die Decken!
+, "Deine Mudda klaut den Pennern auf dem Bahnhof die Decken!"
 , "Wenn deine Mudda ein gelbes T-shirt anzieht und vom Hochhaus springt denken alle die Sonne geht unter"
 , "Deine Mudda steht nackig vor dem KIK und sagt ich bin billiger"
 , "Dein Mutter kämpft mit den Enten im Park um die Brotkrümel"
