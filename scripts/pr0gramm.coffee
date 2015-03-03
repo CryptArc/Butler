@@ -25,7 +25,7 @@ module.exports = (robot) ->
     _imageURL = (image) ->
         "http://img.pr0gramm.com/" + image
 
-    robot.respond /pr0gramm( random)?/i, (msg) ->
+    robot.respond /pr0( random)?/i, (msg) ->
         msg.http("http://pr0gramm.com/api/items/get?flags=2")
             .get() (err, res, body) ->
                 if err

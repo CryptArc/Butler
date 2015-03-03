@@ -200,7 +200,7 @@ haters = [
 , "Deine Mutter bricht nachts bei EDEKA ein und trinkt Würstchenwasser."
 , "Deine Mudda wurde über Hiroschima abgeworfen."
 , "Deine Mudda klettert aufs Empire State Building und schnappt nach Flugzeugen."
-, "Deine Mudda grabbelt im Tunnel zwischen Minas Morgul und Mordor."
+, "Deine Mudda krabbelt im Tunnel zwischen Minas Morgul und Mordor."
 , "Deine Mudda reitet das Nasgul."
 , "Deine Mudda flext teilzeit Nasgul krallen in Mordor."
 , "Deine Mudda macht die Nasguls wild."
