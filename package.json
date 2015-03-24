@@ -25,7 +25,7 @@
     "chrono-node": "1.0.2",
     "clark": "0.0.6",
     "coffee-script": "1.9.1",
-    "express": "4.11.3",
+    "express": "4.11.2",
     "htmlparser": "1.7.7",
     "hubot": "2.11.4",
     "hubot-alpha": "0.1.1",
